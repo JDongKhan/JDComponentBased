@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphoneos/JDLib.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "JDLib-Swift.h",
+          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphoneos/JDLib.framework/Headers/JDLib-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "JDLib.h",
+          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/JDLib/JDLib.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphoneos/JDLib.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Intermediates/JDLib.build/Debug-iphoneos/JDLib.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

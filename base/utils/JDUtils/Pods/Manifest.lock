@@ -1,0 +1,16 @@
+PODS:
+  - JDUtils (0.0.1)
+
+DEPENDENCIES:
+  - JDUtils (from `../`)
+
+EXTERNAL SOURCES:
+  JDUtils:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JDUtils: 8d35c9ed19fdb64a1c7598828975080f00f80e65
+
+PODFILE CHECKSUM: 8ecedd7a0b8ef0e9192d002db5c1952b28cf8d65
+
+COCOAPODS: 1.2.0.beta.3

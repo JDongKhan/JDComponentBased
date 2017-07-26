@@ -1,0 +1,22 @@
+{
+  "name": "JDOrder",
+  "version": "0.0.1",
+  "summary": "JD",
+  "homepage": "https://github.com/wangjindong",
+  "license": "MIT",
+  "authors": {
+    "wangjindong": "419591321@qq.com"
+  },
+  "social_media_url": "http://twitter.com/hundsun",
+  "source": {
+    "svn": "",
+    "tag": ""
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "Sources/**/*.{h,m,mm}",
+  "resources": "Sources/**/*.{png,xib,plist}",
+  "requires_arc": true,
+  "public_header_files": "Framework/**/*.h"
+}

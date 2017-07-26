@@ -1,0 +1,16 @@
+PODS:
+  - JDLibCore (0.0.1)
+
+DEPENDENCIES:
+  - JDLibCore (from `../`)
+
+EXTERNAL SOURCES:
+  JDLibCore:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JDLibCore: 0cbab6562406de9d08b2492735f59e4cb7e29e25
+
+PODFILE CHECKSUM: c5c166e46c686912e1718a7f4318560469b28f68
+
+COCOAPODS: 1.2.0.beta.3

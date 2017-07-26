@@ -1,0 +1,23 @@
+{
+  "name": "JDResources",
+  "version": "0.0.1",
+  "summary": "HsResource",
+  "homepage": "https://github.com/wangjindong",
+  "license": "MIT",
+  "authors": {
+    "wangjindong": "419591321@qq.com"
+  },
+  "social_media_url": "http://twitter.com/HsResource",
+  "source": {
+    "svn": "",
+    "tag": ""
+  },
+  "resources": [
+    "Assets.xcassets",
+    "other/**/*"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  }
+}

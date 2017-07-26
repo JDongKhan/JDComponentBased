@@ -1,0 +1,41 @@
+PODS:
+  - JDCore (0.0.1)
+  - JDLib (0.0.1)
+  - JDLibCore (0.0.1)
+  - JDNetwork (0.0.1)
+  - JDUIKit (0.0.1)
+  - JDUtils (0.0.1)
+
+DEPENDENCIES:
+  - JDCore (from `../../../base/core/JDCore.podspec`)
+  - JDLib (from `../../../base/lib/JDLib/JDLib.podspec`)
+  - JDLibCore (from `../../../base/lib/JDLibCore.podspec`)
+  - JDNetwork (from `../../../base/net/JDNetwork.podspec`)
+  - JDUIKit (from `../../../base/ui/JDUIKit.podspec`)
+  - JDUtils (from `../../../base/utils/JDUtils.podspec`)
+
+EXTERNAL SOURCES:
+  JDCore:
+    :path: ../../../base/core/JDCore.podspec
+  JDLib:
+    :path: ../../../base/lib/JDLib/JDLib.podspec
+  JDLibCore:
+    :path: ../../../base/lib/JDLibCore.podspec
+  JDNetwork:
+    :path: ../../../base/net/JDNetwork.podspec
+  JDUIKit:
+    :path: ../../../base/ui/JDUIKit.podspec
+  JDUtils:
+    :path: ../../../base/utils/JDUtils.podspec
+
+SPEC CHECKSUMS:
+  JDCore: 63ca8a83991f86c9936fbd23fa415de7c0f9fc7d
+  JDLib: ae545a4f01d1113fd7a9fb622eff84c3410d1933
+  JDLibCore: 0cbab6562406de9d08b2492735f59e4cb7e29e25
+  JDNetwork: dbf6b4f67cac8f377fad7e8597f31347f96736f1
+  JDUIKit: 00d3de9457563d96c83c1b97a0a5982705d624ca
+  JDUtils: 8d35c9ed19fdb64a1c7598828975080f00f80e65
+
+PODFILE CHECKSUM: 86c74c81fee300cbfafcaeb1d1fced60c43ec00f
+
+COCOAPODS: 1.2.0.beta.3

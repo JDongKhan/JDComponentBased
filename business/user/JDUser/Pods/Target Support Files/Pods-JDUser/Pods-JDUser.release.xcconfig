@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JDCore" "${PODS_ROOT}/Headers/Public/JDLib" "${PODS_ROOT}/Headers/Public/JDLibCore" "${PODS_ROOT}/Headers/Public/JDNetwork" "${PODS_ROOT}/Headers/Public/JDUIKit" "${PODS_ROOT}/Headers/Public/JDUtils"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JDCore" "$PODS_CONFIGURATION_BUILD_DIR/JDLib" "$PODS_CONFIGURATION_BUILD_DIR/JDLibCore" "$PODS_CONFIGURATION_BUILD_DIR/JDNetwork" "$PODS_CONFIGURATION_BUILD_DIR/JDUIKit" "$PODS_CONFIGURATION_BUILD_DIR/JDUtils"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/JDCore" -isystem "${PODS_ROOT}/Headers/Public/JDLib" -isystem "${PODS_ROOT}/Headers/Public/JDLibCore" -isystem "${PODS_ROOT}/Headers/Public/JDNetwork" -isystem "${PODS_ROOT}/Headers/Public/JDUIKit" -isystem "${PODS_ROOT}/Headers/Public/JDUtils"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"JDCore" -l"JDLib" -l"JDLibCore" -l"JDNetwork" -l"JDUIKit" -l"JDUtils"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

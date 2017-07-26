@@ -1,0 +1,16 @@
+PODS:
+  - JDNetwork (0.0.1)
+
+DEPENDENCIES:
+  - JDNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  JDNetwork:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JDNetwork: dbf6b4f67cac8f377fad7e8597f31347f96736f1
+
+PODFILE CHECKSUM: 747ef31d49028b34ddab0b29a62cc283f9e6238a
+
+COCOAPODS: 1.2.0.beta.3

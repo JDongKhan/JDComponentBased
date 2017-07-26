@@ -1,0 +1,16 @@
+PODS:
+  - JDCore (0.0.1)
+
+DEPENDENCIES:
+  - JDCore (from `../`)
+
+EXTERNAL SOURCES:
+  JDCore:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JDCore: 63ca8a83991f86c9936fbd23fa415de7c0f9fc7d
+
+PODFILE CHECKSUM: 6d7200703d59ed250fb8c05b93813d71accfbb2b
+
+COCOAPODS: 1.2.0.beta.3

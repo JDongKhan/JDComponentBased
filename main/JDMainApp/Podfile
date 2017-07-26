@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JDMainApp' do
+ 
+
+#base
+pod 'JDLib', :path => '../../base/lib/JDLib/JDLib.podspec'
+
+pod 'JDLibCore', :path => '../../base/lib/JDLibCore.podspec'
+
+pod 'JDCore', :path => '../../base/core/JDCore.podspec'
+
+pod 'JDNetwork', :path => '../../base/net/JDNetwork.podspec'
+
+pod 'JDUIKit', :path => '../../base/ui/JDUIKit.podspec'
+
+pod 'JDUtils', :path => '../../base/utils/JDUtils.podspec'
+
+
+#business
+pod 'JDUser', :path => '../../business/user/JDUser/JDUser.podspec'
+
+pod 'JDOrder', :path => '../../business/order/JDOrder/JDOrder.podspec'
+
+
+pod 'JDResources', :path => '../../business/resources/JDResources.podspec'
+
+
+end

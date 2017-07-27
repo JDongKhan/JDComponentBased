@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A134E376E11E5E8D167BB5D3D8E74D96'
+               BlueprintIdentifier = 'EB07C011D4681B62D5EBC56D31E71C12'
                BlueprintName = 'Pods-JDCore'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-JDCore.a'>

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JDCore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JDCore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A134E376E11E5E8D167BB5D3D8E74D96</key>
+		<key>7794A53EB9068C1058CD7E4FE9DE2489</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB07C011D4681B62D5EBC56D31E71C12</key>
 		<dict>
 			<key>primary</key>
 			<true/>

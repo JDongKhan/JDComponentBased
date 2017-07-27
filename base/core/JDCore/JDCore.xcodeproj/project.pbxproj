@@ -14,6 +14,7 @@
 		4D1AF31F1F273A1D006B7845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AF31D1F273A1D006B7845 /* Main.storyboard */; };
 		4D1AF3211F273A1D006B7845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AF3201F273A1D006B7845 /* Assets.xcassets */; };
 		4D1AF3241F273A1D006B7845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AF3221F273A1D006B7845 /* LaunchScreen.storyboard */; };
+		4D8DB4B11F29D973003249CD /* JDNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DB4B01F29D973003249CD /* JDNextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4D1AF3201F273A1D006B7845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1AF3231F273A1D006B7845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1AF3251F273A1D006B7845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8DB4AF1F29D973003249CD /* JDNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNextViewController.h; sourceTree = "<group>"; };
+		4D8DB4B01F29D973003249CD /* JDNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDNextViewController.m; sourceTree = "<group>"; };
 		625AED3F448EE04A8CD85A4E /* Pods-JDCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDCore/Pods-JDCore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +86,8 @@
 				4D1AF3221F273A1D006B7845 /* LaunchScreen.storyboard */,
 				4D1AF3251F273A1D006B7845 /* Info.plist */,
 				4D1AF3141F273A1D006B7845 /* Supporting Files */,
+				4D8DB4AF1F29D973003249CD /* JDNextViewController.h */,
+				4D8DB4B01F29D973003249CD /* JDNextViewController.m */,
 			);
 			path = JDCore;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1AF31C1F273A1D006B7845 /* ViewController.m in Sources */,
+				4D8DB4B11F29D973003249CD /* JDNextViewController.m in Sources */,
 				4D1AF3191F273A1D006B7845 /* AppDelegate.m in Sources */,
 				4D1AF3161F273A1D006B7845 /* main.m in Sources */,
 			);
@@ -386,6 +392,7 @@
 				4D1AF32A1F273A1D006B7845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

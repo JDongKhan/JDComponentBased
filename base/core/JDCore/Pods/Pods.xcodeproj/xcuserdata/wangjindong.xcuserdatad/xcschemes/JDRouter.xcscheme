@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C645C0D77CE2026E4EA1BE50BEC99D2F'
+               BlueprintIdentifier = '061514BB80F9BC5A72FCBDAB7D892217'
                BlueprintName = 'JDRouter'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libJDRouter.a'>

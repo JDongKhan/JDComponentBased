@@ -1,1 +1,1 @@
-../../../JDRouter/Framework/JDRouter+viewController.h
+../../../JDRouter/Router/JDRouter+viewController.h

@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06F8732EB479D55C51852409D4D5D8B9 /* JDRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23389126E4E6A01AFE2E91A43A76200C /* JDRouter-dummy.m */; };
+		05D0DB310830F35C52BEDC083044E6C9 /* JDIntent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3788DF6B2E8E2BD9BA3C4A614B36CC42 /* JDIntent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C76DFC3935AA2C40CD8037D23330480 /* JDRouter+viewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D34566D56AE97E68DD6CC732D59AF11F /* JDRouter+viewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		106E2F3CCCF0DD0CA09785071274257F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		3A276A3CAC016DCDEA984634ADCA5650 /* JDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0907CFDBC9664780F8B999C85A7235 /* JDRouter.m */; };
-		3FABBA965E75FAC8042B3C42E4889C69 /* JDRouter+viewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 253957345DE8D2AFA576392A428D8139 /* JDRouter+viewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72DAF36E27C60F0099A1E7230964ED85 /* JDRouter+viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5D632C2234DDF1A183DB69A3A1BBDB /* JDRouter+viewController.m */; };
-		B531FFD2682F314F7523A007829EE6F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		D4821B7B6551D6A7A4EB7FF7FC773BDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		D549625DC7AF440C79CFB013F5AF84FA /* JDRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D11F6E5F4CF0088B066D7EBC0DD79E92 /* JDRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6451AB2EAE841CB809E8BE090692629C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6903ADA4B583BE1220DC2AF1C7EE6B32 /* JDRouter+viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECEBCFFD348DA94D763F9F8E72D56D /* JDRouter+viewController.m */; };
+		7E45CEF97DD7D130CC38F87C4C07EB9A /* JDIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9CFFBFADEDBD78688D53C1F9A97E93 /* JDIntent.m */; };
+		84AD2D54BBA120FE9EA215D1527D9BDD /* JDRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6C1776B9297E9FB2FE7B037A6E8635 /* JDRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860D02572E339F874E268333AD1D768E /* JDRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3424000BEAD86816B6973E4A71264C89 /* JDRouter-dummy.m */; };
+		87989BAAF3AD3865EF311C1FEBAD18C8 /* JDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FC3CB9AD3CF6245A223E35C602C829 /* JDRouter.m */; };
+		9DC59DCB41F499FB48E14149F742A14F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		DF35B46B05FBC1B70F53C894411A190E /* Pods-JDCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24CE68C2656A0459AAB566E2053DD48 /* Pods-JDCore-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -23,43 +25,36 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C645C0D77CE2026E4EA1BE50BEC99D2F;
+			remoteGlobalIDString = 061514BB80F9BC5A72FCBDAB7D892217;
 			remoteInfo = JDRouter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23389126E4E6A01AFE2E91A43A76200C /* JDRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDRouter-dummy.m"; sourceTree = "<group>"; };
-		253957345DE8D2AFA576392A428D8139 /* JDRouter+viewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JDRouter+viewController.h"; path = "Framework/JDRouter+viewController.h"; sourceTree = "<group>"; };
+		3424000BEAD86816B6973E4A71264C89 /* JDRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDRouter-dummy.m"; sourceTree = "<group>"; };
+		3788DF6B2E8E2BD9BA3C4A614B36CC42 /* JDIntent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDIntent.h; path = Intent/JDIntent.h; sourceTree = "<group>"; };
 		410A52BE2B7721E6BCE6ED75ABB20E5D /* libJDRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJDRouter.a; path = libJDRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FC3CB9AD3CF6245A223E35C602C829 /* JDRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDRouter.m; path = Router/JDRouter.m; sourceTree = "<group>"; };
 		4848AC9B21E9B1C9148F5EA887DAF4BE /* Pods-JDCore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDCore-acknowledgements.plist"; sourceTree = "<group>"; };
 		4FF3CD1EDF976F43591710B500AA096C /* libPods-JDCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JDCore.a"; path = "libPods-JDCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CF36DFBFAAF9AB58B55E3D6D260621C /* JDRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDRouter-prefix.pch"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69A550D8EE71EB18E5E856F0CE24B729 /* Pods-JDCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCore.debug.xcconfig"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8A0907CFDBC9664780F8B999C85A7235 /* JDRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDRouter.m; path = Framework/JDRouter.m; sourceTree = "<group>"; };
+		84ECEBCFFD348DA94D763F9F8E72D56D /* JDRouter+viewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JDRouter+viewController.m"; path = "Router/JDRouter+viewController.m"; sourceTree = "<group>"; };
 		933FC0AE3CEE1DC0F10830E841215C1C /* Pods-JDCore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDCore-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A108BF7216F757CDE7F1F41B968851D6 /* Pods-JDCore-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCore-frameworks.sh"; sourceTree = "<group>"; };
-		D11F6E5F4CF0088B066D7EBC0DD79E92 /* JDRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDRouter.h; path = Framework/JDRouter.h; sourceTree = "<group>"; };
-		DE5D632C2234DDF1A183DB69A3A1BBDB /* JDRouter+viewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JDRouter+viewController.m"; path = "Framework/JDRouter+viewController.m"; sourceTree = "<group>"; };
+		A63D47F563C0FBAE15CEE8C16E146F94 /* JDRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDRouter-prefix.pch"; sourceTree = "<group>"; };
+		CE6C1776B9297E9FB2FE7B037A6E8635 /* JDRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDRouter.h; path = Router/JDRouter.h; sourceTree = "<group>"; };
+		D34566D56AE97E68DD6CC732D59AF11F /* JDRouter+viewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JDRouter+viewController.h"; path = "Router/JDRouter+viewController.h"; sourceTree = "<group>"; };
+		DD39D5E81962D9951F5DDD52FAD01949 /* JDRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDRouter.xcconfig; sourceTree = "<group>"; };
 		DEC4CCBE313672FFDEA13B0049B641DD /* Pods-JDCore-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDCore-resources.sh"; sourceTree = "<group>"; };
-		EB4A6AB928AE463041C7695CB498EE5B /* JDRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDRouter.xcconfig; sourceTree = "<group>"; };
 		EB7D8FE6588680B87274EA0BB4EDFD29 /* Pods-JDCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDCore.release.xcconfig"; sourceTree = "<group>"; };
+		EB9CFFBFADEDBD78688D53C1F9A97E93 /* JDIntent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDIntent.m; path = Intent/JDIntent.m; sourceTree = "<group>"; };
 		F24CE68C2656A0459AAB566E2053DD48 /* Pods-JDCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDCore-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1302868F1CCB6CCD5BF04E52D903702B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4821B7B6551D6A7A4EB7FF7FC773BDC /* Foundation.framework in Frameworks */,
-				B531FFD2682F314F7523A007829EE6F6 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B3F71E188259CCFE0F1EEA390D5E6EB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,9 +63,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E42CED75DD1444388F037A8C1AC2C396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6451AB2EAE841CB809E8BE090692629C /* Foundation.framework in Frameworks */,
+				9DC59DCB41F499FB48E14149F742A14F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F201CC9CD063EAAD0FC730A09D340B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD39D5E81962D9951F5DDD52FAD01949 /* JDRouter.xcconfig */,
+				3424000BEAD86816B6973E4A71264C89 /* JDRouter-dummy.m */,
+				A63D47F563C0FBAE15CEE8C16E146F94 /* JDRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JDRouter";
+			sourceTree = "<group>";
+		};
+		148E1F95FB06799AB859EFEB900334FA /* JDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				FDF6541CFBD1F9E49F46FB1C6ABD1252 /* Intent */,
+				F2B76433574287EF0517C757B97E2513 /* Router */,
+				05F201CC9CD063EAAD0FC730A09D340B /* Support Files */,
+			);
+			name = JDRouter;
+			path = JDRouter;
+			sourceTree = "<group>";
+		};
 		153598B607C0009F14AE10A4B60C530C /* JDCore */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +120,14 @@
 				5A1D5D909DA84D72ABC7A4D447BE7736 /* Pods-JDCore */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2EF49770EF85F4EFD9CDEE8B3FD1CEF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				148E1F95FB06799AB859EFEB900334FA /* JDRouter */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -133,42 +167,10 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6B056E6F9FAA65F831325F84CE68B9A0 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				DBBC4E5624D313DEDD8F7BAB7120F835 /* Pods */,
+				2EF49770EF85F4EFD9CDEE8B3FD1CEF5 /* Pods */,
 				1BEE84365F347535653016CD4A70DDCE /* Products */,
 				20D88F5573243A3F008EB38F850C0B4E /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B2DCF0CD272927C11FB86ABB01AE15F5 /* JDRouter */ = {
-			isa = PBXGroup;
-			children = (
-				D11F6E5F4CF0088B066D7EBC0DD79E92 /* JDRouter.h */,
-				8A0907CFDBC9664780F8B999C85A7235 /* JDRouter.m */,
-				253957345DE8D2AFA576392A428D8139 /* JDRouter+viewController.h */,
-				DE5D632C2234DDF1A183DB69A3A1BBDB /* JDRouter+viewController.m */,
-				DE5FB2954C93285ECA27611D2A4D3B27 /* Support Files */,
-			);
-			name = JDRouter;
-			path = JDRouter;
-			sourceTree = "<group>";
-		};
-		DBBC4E5624D313DEDD8F7BAB7120F835 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B2DCF0CD272927C11FB86ABB01AE15F5 /* JDRouter */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DE5FB2954C93285ECA27611D2A4D3B27 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EB4A6AB928AE463041C7695CB498EE5B /* JDRouter.xcconfig */,
-				23389126E4E6A01AFE2E91A43A76200C /* JDRouter-dummy.m */,
-				5CF36DFBFAAF9AB58B55E3D6D260621C /* JDRouter-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JDRouter";
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -180,28 +182,49 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F2B76433574287EF0517C757B97E2513 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C1776B9297E9FB2FE7B037A6E8635 /* JDRouter.h */,
+				46FC3CB9AD3CF6245A223E35C602C829 /* JDRouter.m */,
+				D34566D56AE97E68DD6CC732D59AF11F /* JDRouter+viewController.h */,
+				84ECEBCFFD348DA94D763F9F8E72D56D /* JDRouter+viewController.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		FDF6541CFBD1F9E49F46FB1C6ABD1252 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				3788DF6B2E8E2BD9BA3C4A614B36CC42 /* JDIntent.h */,
+				EB9CFFBFADEDBD78688D53C1F9A97E93 /* JDIntent.m */,
+			);
+			name = Intent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D34A6C1068E0E146C5272D9C2BC9FB1 /* Headers */ = {
+		22C126D49A3D5CFFADF7E2AA8A1FD7C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FABBA965E75FAC8042B3C42E4889C69 /* JDRouter+viewController.h in Headers */,
-				D549625DC7AF440C79CFB013F5AF84FA /* JDRouter.h in Headers */,
+				05D0DB310830F35C52BEDC083044E6C9 /* JDIntent.h in Headers */,
+				0C76DFC3935AA2C40CD8037D23330480 /* JDRouter+viewController.h in Headers */,
+				84AD2D54BBA120FE9EA215D1527D9BDD /* JDRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C645C0D77CE2026E4EA1BE50BEC99D2F /* JDRouter */ = {
+		061514BB80F9BC5A72FCBDAB7D892217 /* JDRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3A4472430E100D4279F58FBEE955520 /* Build configuration list for PBXNativeTarget "JDRouter" */;
+			buildConfigurationList = 8963E93167155389AC1F7D5FCF496990 /* Build configuration list for PBXNativeTarget "JDRouter" */;
 			buildPhases = (
-				72C40C270CBB93F178459BF1EB550346 /* Sources */,
-				1302868F1CCB6CCD5BF04E52D903702B /* Frameworks */,
-				6D34A6C1068E0E146C5272D9C2BC9FB1 /* Headers */,
+				5FD4BA18B32A664040DA7E345BD0BFDF /* Sources */,
+				E42CED75DD1444388F037A8C1AC2C396 /* Frameworks */,
+				22C126D49A3D5CFFADF7E2AA8A1FD7C2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -250,20 +273,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C645C0D77CE2026E4EA1BE50BEC99D2F /* JDRouter */,
+				061514BB80F9BC5A72FCBDAB7D892217 /* JDRouter */,
 				E4987E28991D1D7FE88F37F8C6492430 /* Pods-JDCore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		72C40C270CBB93F178459BF1EB550346 /* Sources */ = {
+		5FD4BA18B32A664040DA7E345BD0BFDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72DAF36E27C60F0099A1E7230964ED85 /* JDRouter+viewController.m in Sources */,
-				06F8732EB479D55C51852409D4D5D8B9 /* JDRouter-dummy.m in Sources */,
-				3A276A3CAC016DCDEA984634ADCA5650 /* JDRouter.m in Sources */,
+				7E45CEF97DD7D130CC38F87C4C07EB9A /* JDIntent.m in Sources */,
+				6903ADA4B583BE1220DC2AF1C7EE6B32 /* JDRouter+viewController.m in Sources */,
+				860D02572E339F874E268333AD1D768E /* JDRouter-dummy.m in Sources */,
+				87989BAAF3AD3865EF311C1FEBAD18C8 /* JDRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +305,7 @@
 		A56C2E2B99969F08D27E95E06C80D86A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JDRouter;
-			target = C645C0D77CE2026E4EA1BE50BEC99D2F /* JDRouter */;
+			target = 061514BB80F9BC5A72FCBDAB7D892217 /* JDRouter */;
 			targetProxy = C832E0805544866E7869AD4C7E89EE17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -350,9 +374,9 @@
 			};
 			name = Release;
 		};
-		3B512E1D51864BBA8C49ADE91EDEB3B2 /* Debug */ = {
+		335B600C2699BB380ABE20FEA84CB895 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB4A6AB928AE463041C7695CB498EE5B /* JDRouter.xcconfig */;
+			baseConfigurationReference = DD39D5E81962D9951F5DDD52FAD01949 /* JDRouter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -361,7 +385,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/JDRouter/JDRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -396,9 +420,9 @@
 			};
 			name = Debug;
 		};
-		B9A49A627D276A177E947BBBFC2E3493 /* Release */ = {
+		8A4BC9448F071782D3B82579B7D34617 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB4A6AB928AE463041C7695CB498EE5B /* JDRouter.xcconfig */;
+			baseConfigurationReference = DD39D5E81962D9951F5DDD52FAD01949 /* JDRouter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -407,7 +431,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/JDRouter/JDRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -484,11 +508,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3A4472430E100D4279F58FBEE955520 /* Build configuration list for PBXNativeTarget "JDRouter" */ = {
+		8963E93167155389AC1F7D5FCF496990 /* Build configuration list for PBXNativeTarget "JDRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B512E1D51864BBA8C49ADE91EDEB3B2 /* Debug */,
-				B9A49A627D276A177E947BBBFC2E3493 /* Release */,
+				335B600C2699BB380ABE20FEA84CB895 /* Debug */,
+				8A4BC9448F071782D3B82579B7D34617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

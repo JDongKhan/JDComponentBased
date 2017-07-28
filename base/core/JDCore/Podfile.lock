@@ -1,7 +1,11 @@
 PODS:
   - JDCore (0.0.1):
     - JDRouter
-  - JDRouter (1.2.4)
+  - JDRouter (1.2.6):
+    - JDRouter/Intent (= 1.2.6)
+    - JDRouter/Router (= 1.2.6)
+  - JDRouter/Intent (1.2.6)
+  - JDRouter/Router (1.2.6)
 
 DEPENDENCIES:
   - JDCore (from `../`)
@@ -13,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JDCore: 51a779ba4dada50d3449e6eaee8ca9b60a73a85b
-  JDRouter: 457e6ec94b255c03c47edcaf2e8d53a757abd175
+  JDRouter: 7481f0ac9cde4968cfdf9c2c434c52e8344b18b3
 
 PODFILE CHECKSUM: 001e743a0a96f502917e9c0ec8d1cffb45be0518
 

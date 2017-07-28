@@ -4,25 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JDLibCore.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-JDLib.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5F284533F22200D44DBD68A3725498B9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9A1EAE70C76D9F8931B42A44E1A28AAB</key>
+		<key>71C3C7015A5B451EF909772E33F9D5BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

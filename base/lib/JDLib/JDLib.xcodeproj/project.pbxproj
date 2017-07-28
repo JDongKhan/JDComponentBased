@@ -6,12 +6,37 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4D8DB50C1F2AE5F1003249CD /* JDLibBuild */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4D8DB50F1F2AE5F1003249CD /* Build configuration list for PBXAggregateTarget "JDLibBuild" */;
+			buildPhases = (
+				4D8DB5121F2AE5FC003249CD /* ShellScript */,
+			);
+			dependencies = (
+				4D8DB5111F2AE5F7003249CD /* PBXTargetDependency */,
+			);
+			name = JDLibBuild;
+			productName = JDLibBuild;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		4D147A281F273DC700C9569C /* JDDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D147A261F273DC700C9569C /* JDDynamic.h */; };
 		4D147A291F273DC700C9569C /* JDDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D147A271F273DC700C9569C /* JDDynamic.m */; };
 		4D1AF2F71F2737BC006B7845 /* JDLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1AF2F51F2737BC006B7845 /* JDLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F02374CEFBE685E486B402E /* libPods-JDLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966A47B3D11BF297577C0A3 /* libPods-JDLib.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D8DB5101F2AE5F7003249CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1AF2E91F2737BC006B7845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1AF2F11F2737BC006B7845;
+			remoteInfo = JDLib;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		14584E4B0676EAFBB672585F /* Pods-JDLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDLib/Pods-JDLib.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +163,10 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
+					4D8DB50C1F2AE5F1003249CD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 4D1AF2EC1F2737BC006B7845 /* Build configuration list for PBXProject "JDLib" */;
@@ -153,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				4D1AF2F11F2737BC006B7845 /* JDLib */,
+				4D8DB50C1F2AE5F1003249CD /* JDLibBuild */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +198,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4D8DB5121F2AE5FC003249CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n#用来存放合并的framework\nOUTPUTFOLDER=${BUILD_DIR}\n#合并后的文件夹名称后缀\nOUTPUTFOLDER_SUFFIX=\"universal\"\n\n#用户自定义的目录，可以帮你拷贝到你想要的目录\nLIB_OUTPUTFOLDER=../Libs\n\n\nWORKSPACE_NAME=${PROJECT_NAME}.xcworkspace\n\nYO_SCHEME=${PROJECT_NAME}\n\n\nfunction build_static_library {\n    #编译工程 打开这个注释你就可以编译project 但是注意要把下面的命令隐藏掉\n    #xcodebuild  -target \"${FMK_NAME}\" -sdk ${1} -configuration ${2} clean build\n    \n    #编译workspace\n    xcodebuild -workspace ${WORKSPACE_NAME} \\\n    -scheme ${YO_SCHEME} \\\n    -sdk ${1} \\\n    -configuration ${2}\n}\n\nfunction make_fat_library {\n    xcrun lipo -create \\\n    \"${BUILD_DIR}/$1-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \\\n    \"${BUILD_DIR}/$1-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \\\n    -output \\\n    \"${OUTPUTFOLDER}/$1-${OUTPUTFOLDER_SUFFIX}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n}\n\n#重新创建目录\nfunction rmkdir_library {\n    rm -rf \"${OUTPUTFOLDER}/${1}-${OUTPUTFOLDER_SUFFIX}\"\n    mkdir -p \"${OUTPUTFOLDER}/${1}-${OUTPUTFOLDER_SUFFIX}\"\n}\n\n#拷贝一份头文件\nfunction cp_library_header {\n    cp -R \"${BUILD_DIR}/${1}-iphonesimulator/${PROJECT_NAME}.framework\" \"${BUILD_DIR}/${1}-${OUTPUTFOLDER_SUFFIX}/${PROJECT_NAME}.framework\"\n}\n\n#根据环境编译\nfunction build_platform {\n    #先清理老的\n    rm -rf \"${BUILD_DIR}\"\n    rm -rf \\\n    \"${LIB_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n    #编译模拟器\n    build_static_library iphonesimulator ${1}\n    #编译真机\n    build_static_library iphoneos ${1}\n    #重新创建目录\n    rmkdir_library ${1}\n    # 因为framework的合并,lipo只是合并了最后的 二进制可执行文件,所以其它的需要我们自己复制过来\n    cp_library_header ${1}\n    # 合并模拟器和真机的架构\n    make_fat_library ${1}\n    \n    # 拷贝framewrok到用户的目录\n    ditto ${OUTPUTFOLDER}/$1-${OUTPUTFOLDER_SUFFIX}/${PROJECT_NAME}.framework \\\n    \"${LIB_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n}\n\nbuild_platform ${CONFIGURATION}\n\n#open \"${OUTPUTFOLDER}\"\n";
+		};
 		5B08D2EC01F9809ADA331E03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,6 +253,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D8DB5111F2AE5F7003249CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1AF2F11F2737BC006B7845 /* JDLib */;
+			targetProxy = 4D8DB5101F2AE5F7003249CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4D1AF2F81F2737BC006B7845 /* Debug */ = {
@@ -348,6 +399,20 @@
 			};
 			name = Release;
 		};
+		4D8DB50D1F2AE5F1003249CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D8DB50E1F2AE5F1003249CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -368,6 +433,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		4D8DB50F1F2AE5F1003249CD /* Build configuration list for PBXAggregateTarget "JDLibBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8DB50D1F2AE5F1003249CD /* Debug */,
+				4D8DB50E1F2AE5F1003249CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

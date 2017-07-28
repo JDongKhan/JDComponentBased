@@ -7,6 +7,5 @@ target 'JDLib' do
 
   # Pods for JDLib
 
-pod 'JDLibCore', :path => '../'
 
 end

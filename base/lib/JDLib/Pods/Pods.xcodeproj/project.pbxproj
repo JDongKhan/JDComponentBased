@@ -7,78 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C881B9C37FE1C856956490855E5ACE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1526988A1118964FA8FEE7701EC3DBB0 /* NSObject+jd_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABFB6720EF5EAB8CE1182A05726B973 /* NSObject+jd_lib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81DDE566646CACE3326DB1E4E7354EB2 /* JDLibCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF6C75D345BA59F3169E389126E69A /* JDLibCore-dummy.m */; };
-		851DC2E0DF5E25A33C068CBFA99BCED4 /* NSObject+jd_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E66C791B75E38047C5C5C1A5759A6 /* NSObject+jd_lib.m */; };
-		BE6F7B11A058A8E26236584C238A4838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D57815397F20504D07729B5B44511F95 /* Pods-JDLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D1BCD5DB5F932B3ACDA796C58B83E9 /* Pods-JDLib-dummy.m */; };
+		AF25E1F3454F1B49CAD50EF7A3529B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B5732F8B7AD8642DEF8B280A7CC51462 /* Pods-JDLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D1BCD5DB5F932B3ACDA796C58B83E9 /* Pods-JDLib-dummy.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		266715F64C942E2BCB4D10AA3D98B4DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F284533F22200D44DBD68A3725498B9;
-			remoteInfo = JDLibCore;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01D9373B5583EBF8C176A37437148D0C /* Pods-JDLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDLib.debug.xcconfig"; sourceTree = "<group>"; };
 		0873CF22DC414CFE208D9672F606D0E4 /* Pods-JDLib-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDLib-resources.sh"; sourceTree = "<group>"; };
-		0A420569AD8E6C5FB0A5759B2CA3155C /* libPods-JDLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JDLib.a"; path = "libPods-JDLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ABFB6720EF5EAB8CE1182A05726B973 /* NSObject+jd_lib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+jd_lib.h"; sourceTree = "<group>"; };
 		0F9E30B1895901B72B8AB9B1FBF99F3D /* Pods-JDLib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDLib-acknowledgements.plist"; sourceTree = "<group>"; };
-		37BF6C75D345BA59F3169E389126E69A /* JDLibCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDLibCore-dummy.m"; sourceTree = "<group>"; };
 		46C42234E41EE37D59C43301ACA9FF07 /* Pods-JDLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDLib.release.xcconfig"; sourceTree = "<group>"; };
 		651AC6F1E7CAA823460C33764C8903F8 /* Pods-JDLib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDLib-acknowledgements.markdown"; sourceTree = "<group>"; };
-		84463B09998DD52B2E1400BE4DD42FAC /* libJDLibCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJDLibCore.a; path = libJDLibCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C3E66C791B75E38047C5C5C1A5759A6 /* NSObject+jd_lib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+jd_lib.m"; sourceTree = "<group>"; };
 		A4D1BCD5DB5F932B3ACDA796C58B83E9 /* Pods-JDLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDLib-dummy.m"; sourceTree = "<group>"; };
-		B657EF059D0B7C9A0BAA65EA0D311BCC /* JDLibCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDLibCore.xcconfig; sourceTree = "<group>"; };
-		B953CA94DDA39B1DBC8FC8FE660A4A4B /* JDLibCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDLibCore-prefix.pch"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1497410159CC19693A659C31DECCE18 /* libPods-JDLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JDLib.a"; path = "libPods-JDLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32D7423ABA81907518A3217820B9956E /* Frameworks */ = {
+		848EAF70BF124A0DF72040D881F58CEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C881B9C37FE1C856956490855E5ACE2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C46D51913417C8331C947534BBC8DCC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE6F7B11A058A8E26236584C238A4838 /* Foundation.framework in Frameworks */,
+				AF25E1F3454F1B49CAD50EF7A3529B5C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ADDD742F57C78A00DDD35C77D436D16 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				0ABFB6720EF5EAB8CE1182A05726B973 /* NSObject+jd_lib.h */,
-				9C3E66C791B75E38047C5C5C1A5759A6 /* NSObject+jd_lib.m */,
-			);
-			name = Framework;
-			path = Framework;
-			sourceTree = "<group>";
-		};
 		1C7CDD4D748068716BC8D0660D5F2EA0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				A9FAE9FD626240D3D764084A2AD8D3FD /* Pods-JDLib */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F7C0E1AE4A92C0D4543F00E929E4501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1497410159CC19693A659C31DECCE18 /* libPods-JDLib.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -93,32 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BA392CCFE8C455644C81FA8EBF06A123 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C7A6E3957DB93EB98A2021CD8DE99E92 /* Products */,
+				4F7C0E1AE4A92C0D4543F00E929E4501 /* Products */,
 				1C7CDD4D748068716BC8D0660D5F2EA0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8D981C7384105455181865B978D7AA0D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B657EF059D0B7C9A0BAA65EA0D311BCC /* JDLibCore.xcconfig */,
-				37BF6C75D345BA59F3169E389126E69A /* JDLibCore-dummy.m */,
-				B953CA94DDA39B1DBC8FC8FE660A4A4B /* JDLibCore-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "JDLib/Pods/Target Support Files/JDLibCore";
-			sourceTree = "<group>";
-		};
-		9E72D386CAA64039F3B83BC0EB839B4C /* JDLibCore */ = {
-			isa = PBXGroup;
-			children = (
-				0ADDD742F57C78A00DDD35C77D436D16 /* Framework */,
-				8D981C7384105455181865B978D7AA0D /* Support Files */,
-			);
-			name = JDLibCore;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		A9FAE9FD626240D3D764084A2AD8D3FD /* Pods-JDLib */ = {
@@ -135,14 +83,6 @@
 			path = "Target Support Files/Pods-JDLib";
 			sourceTree = "<group>";
 		};
-		BA392CCFE8C455644C81FA8EBF06A123 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E72D386CAA64039F3B83BC0EB839B4C /* JDLibCore */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,61 +91,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C7A6E3957DB93EB98A2021CD8DE99E92 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84463B09998DD52B2E1400BE4DD42FAC /* libJDLibCore.a */,
-				0A420569AD8E6C5FB0A5759B2CA3155C /* libPods-JDLib.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		AD13B41F2E67687937F75B755B098CF7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1526988A1118964FA8FEE7701EC3DBB0 /* NSObject+jd_lib.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5F284533F22200D44DBD68A3725498B9 /* JDLibCore */ = {
+		71C3C7015A5B451EF909772E33F9D5BE /* Pods-JDLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 007DFB82B919F7E4A1A55F596EA0AB4E /* Build configuration list for PBXNativeTarget "JDLibCore" */;
+			buildConfigurationList = D924C273A83C153FE0EC713D54C1AEE8 /* Build configuration list for PBXNativeTarget "Pods-JDLib" */;
 			buildPhases = (
-				9C84C299B68DE2B2E4E5AB84567862F4 /* Sources */,
-				32D7423ABA81907518A3217820B9956E /* Frameworks */,
-				AD13B41F2E67687937F75B755B098CF7 /* Headers */,
+				629E1BF1FB519E4250231DDE2E0AC14B /* Sources */,
+				848EAF70BF124A0DF72040D881F58CEF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = JDLibCore;
-			productName = JDLibCore;
-			productReference = 84463B09998DD52B2E1400BE4DD42FAC /* libJDLibCore.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		9A1EAE70C76D9F8931B42A44E1A28AAB /* Pods-JDLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C55A3A929098D25E33019D6C6C9A6B63 /* Build configuration list for PBXNativeTarget "Pods-JDLib" */;
-			buildPhases = (
-				95F5A6EE0D1018B4A9475D3C98862D90 /* Sources */,
-				4C46D51913417C8331C947534BBC8DCC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				268072AE92F6E5AFDC4D05F8E579137E /* PBXTargetDependency */,
 			);
 			name = "Pods-JDLib";
 			productName = "Pods-JDLib";
-			productReference = 0A420569AD8E6C5FB0A5759B2CA3155C /* libPods-JDLib.a */;
+			productReference = D1497410159CC19693A659C31DECCE18 /* libPods-JDLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -225,44 +127,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C7A6E3957DB93EB98A2021CD8DE99E92 /* Products */;
+			productRefGroup = 4F7C0E1AE4A92C0D4543F00E929E4501 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F284533F22200D44DBD68A3725498B9 /* JDLibCore */,
-				9A1EAE70C76D9F8931B42A44E1A28AAB /* Pods-JDLib */,
+				71C3C7015A5B451EF909772E33F9D5BE /* Pods-JDLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		95F5A6EE0D1018B4A9475D3C98862D90 /* Sources */ = {
+		629E1BF1FB519E4250231DDE2E0AC14B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57815397F20504D07729B5B44511F95 /* Pods-JDLib-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C84C299B68DE2B2E4E5AB84567862F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81DDE566646CACE3326DB1E4E7354EB2 /* JDLibCore-dummy.m in Sources */,
-				851DC2E0DF5E25A33C068CBFA99BCED4 /* NSObject+jd_lib.m in Sources */,
+				B5732F8B7AD8642DEF8B280A7CC51462 /* Pods-JDLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		268072AE92F6E5AFDC4D05F8E579137E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JDLibCore;
-			target = 5F284533F22200D44DBD68A3725498B9 /* JDLibCore */;
-			targetProxy = 266715F64C942E2BCB4D10AA3D98B4DE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
@@ -305,53 +188,7 @@
 			};
 			name = Release;
 		};
-		2C91925E44F300A013679927A517F768 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B657EF059D0B7C9A0BAA65EA0D311BCC /* JDLibCore.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JDLibCore/JDLibCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7CE2CE9FB77B15C950F771DE6117CE08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B657EF059D0B7C9A0BAA65EA0D311BCC /* JDLibCore.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JDLibCore/JDLibCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A6A4181445D0B4E4B2CD2781193C9AA2 /* Debug */ = {
+		5770852FEBAC4E0CB6C13ABD41B45938 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01D9373B5583EBF8C176A37437148D0C /* Pods-JDLib.debug.xcconfig */;
 			buildSettings = {
@@ -418,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		C68FFED4481F56623206CC7E244665FB /* Release */ = {
+		EE8F8D8E650C860480AF97BF4B442368 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46C42234E41EE37D59C43301ACA9FF07 /* Pods-JDLib.release.xcconfig */;
 			buildSettings = {
@@ -444,15 +281,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		007DFB82B919F7E4A1A55F596EA0AB4E /* Build configuration list for PBXNativeTarget "JDLibCore" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C91925E44F300A013679927A517F768 /* Debug */,
-				7CE2CE9FB77B15C950F771DE6117CE08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -462,11 +290,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C55A3A929098D25E33019D6C6C9A6B63 /* Build configuration list for PBXNativeTarget "Pods-JDLib" */ = {
+		D924C273A83C153FE0EC713D54C1AEE8 /* Build configuration list for PBXNativeTarget "Pods-JDLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6A4181445D0B4E4B2CD2781193C9AA2 /* Debug */,
-				C68FFED4481F56623206CC7E244665FB /* Release */,
+				5770852FEBAC4E0CB6C13ABD41B45938 /* Debug */,
+				EE8F8D8E650C860480AF97BF4B442368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

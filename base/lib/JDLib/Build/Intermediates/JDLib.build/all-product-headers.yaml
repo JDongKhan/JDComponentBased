@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphoneos/JDLib.framework/Headers",
+      'name': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphonesimulator/JDLib.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "JDLib-Swift.h",
-          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphoneos/JDLib.framework/Headers/JDLib-Swift.h"
+          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphonesimulator/JDLib.framework/Headers/JDLib-Swift.h"
         },
         {
           'type': 'file',
@@ -20,12 +20,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphoneos/JDLib.framework/Modules",
+      'name': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphonesimulator/JDLib.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Intermediates/JDLib.build/Debug-iphoneos/JDLib.build/module.modulemap"
+          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Intermediates/JDLib.build/Debug-iphonesimulator/JDLib.build/module.modulemap"
         }
       ]
     }

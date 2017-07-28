@@ -7,14 +7,11 @@
 //
 
 #import "JDDynamic.h"
-#import <JDLibCore/NSObject+jd_lib.h>
 
 @implementation JDDynamic
 
 + (void)log {
-    JDDynamic *d = [[JDDynamic alloc] init];
     NSLog(@"JDLib");
-    [d log];
 }
 
 @end

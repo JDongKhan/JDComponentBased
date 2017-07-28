@@ -2,16 +2,5 @@
   'version': 0,
   'case-sensitive': 'false',
   'roots': [
-    {
-      'type': 'directory',
-      'name': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/JDLib/Build/Products/Debug-iphoneos/JDLibCore",
-      'contents': [
-        {
-          'type': 'file',
-          'name': "NSObject+jd_lib.h",
-          'external-contents': "/Users/wangjindong/Documents/github/JDComponentBased/base/lib/Framework/NSObject+jd_lib.h"
-        }
-      ]
-    }
   ]
 }

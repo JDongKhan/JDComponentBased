@@ -1,5 +1,6 @@
 PODS:
-  - JDCore (0.0.1)
+  - JDCore (0.0.1):
+    - JDRouter
   - JDRouter (1.2.4)
 
 DEPENDENCIES:
@@ -11,7 +12,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JDCore: 63ca8a83991f86c9936fbd23fa415de7c0f9fc7d
+  JDCore: 51a779ba4dada50d3449e6eaee8ca9b60a73a85b
   JDRouter: 457e6ec94b255c03c47edcaf2e8d53a757abd175
 
 PODFILE CHECKSUM: 001e743a0a96f502917e9c0ec8d1cffb45be0518

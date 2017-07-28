@@ -7,7 +7,7 @@
 //
 
 #import "JDNextViewController.h"
-#import <JDCore/JDRouter+viewController.h>
+#import <JDRouter/JDRouter+viewController.h>
 
 @interface JDNextViewController ()
 
@@ -18,7 +18,7 @@
 
 + (void)load {
 
-    [JDRouter registerURI:@"order://order" handler:^(NSDictionary *parameters) {
+    [JDRouter registerURI:@"order://order" action:^(NSDictionary *parameters) {
         NSLog(@"处理数据%@",parameters);
         void(^block)(id) = parameters[JDRouterCompletion];
         if(block)block(@"哈哈");

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <JDCore/JDRouter+viewController.h>
+#import <JDRouter/JDRouter+viewController.h>
 
 @interface ViewController ()
 
@@ -17,12 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [JDRouter registerURI:@"user://user/:name" handler:^(NSDictionary *parameters) {
+    [JDRouter registerURI:@"user://user/:name" action:^(NSDictionary *parameters) {
         NSLog(@"处理数据11%@",parameters);
         void(^block)(id) = parameters[JDRouterCompletion];
         if(block)block(@"哈哈");
     }];
-    [JDRouter registerURI:@"user://user/login.htm" handler:^(NSDictionary *parameters) {
+    [JDRouter registerURI:@"user://user/login.htm" action:^(NSDictionary *parameters) {
         NSLog(@"处理数据21%@",parameters);
         void(^block)(id) = parameters[JDRouterCompletion];
         if(block)block(@"哈哈");

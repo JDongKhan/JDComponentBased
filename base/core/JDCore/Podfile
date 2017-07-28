@@ -5,4 +5,7 @@ target 'JDCore' do
  
 pod 'JDCore', :path => '../'
 
+#https://github.com/wangjindong/JDRouter
+pod 'JDRouter'
+
 end

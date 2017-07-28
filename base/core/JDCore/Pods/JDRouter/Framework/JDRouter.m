@@ -2,17 +2,17 @@
 //  JDRouter.m
 //  Pods
 //
-//  Created by 王金东 on 2016/7/27.
+//  Created by 王金东 on 2016/1/27.
 //
 //
 
 #import "JDRouter.h"
 #import <pthread.h>
 
-#define JDROUTER_ADDURL(URI,handler) {\
+#define JDROUTER_ADDURL(URI,action) {\
 NSMutableDictionary *routes = [self addURI:URI];\
-if (handler && routes) {\
-    routes[@"_"] = [handler copy];\
+if (action && routes) {\
+    routes[@"_"] = [action copy];\
 }\
 }
 
@@ -55,20 +55,20 @@ NSString *const JDRouterCompletion = @"JDRouterCompletion";
 }
 
 #pragma mark ------------------------register-----------------------
-+ (void)registerURI:(NSString *)URI handler:(JDRouterHandler)handler {
-     [[self sharedInstance] registerURI:URI handler:handler];
++ (void)registerURI:(NSString *)URI action:(JDRouterAction)action {
+     [[self sharedInstance] registerURI:URI action:action];
 }
-+ (void)registerURI:(NSString *)URI objectHandler:(JDRouterObjectHandler)handler {
-    [[self sharedInstance] registerURI:URI objectHandler:handler];
++ (void)registerURI:(NSString *)URI objectAction:(JDRouterObjectAction)action {
+    [[self sharedInstance] registerURI:URI objectAction:action];
 }
-- (void)registerURI:(NSString *)URI handler:(JDRouterHandler)handler {
+- (void)registerURI:(NSString *)URI action:(JDRouterAction)action {
     dispatch_async(_queue, ^{
-        JDROUTER_ADDURL(URI,handler);
+        JDROUTER_ADDURL(URI,action);
     });
 }
-- (void)registerURI:(NSString *)URI objectHandler:(JDRouterObjectHandler)handler {
+- (void)registerURI:(NSString *)URI objectAction:(JDRouterObjectAction)action {
     dispatch_async(_queue, ^{
-        JDROUTER_ADDURL(URI,handler);
+        JDROUTER_ADDURL(URI,action);
     });
 }
 
@@ -132,6 +132,9 @@ NSString *const JDRouterCompletion = @"JDRouterCompletion";
 
 
 #pragma mark ----------------------open-------------------
++ (void)openURI:(NSString *)URI {
+    [self openURI:URI completion:nil];
+}
 + (void)openURI:(NSString *)URI completion:(void (^)(id result))completion {
     [self openURI:URI userInfo:nil completion:completion];
 }
@@ -146,16 +149,16 @@ NSString *const JDRouterCompletion = @"JDRouterCompletion";
         }
     }];
     if (parameters) {
-        JDRouterHandler handler = parameters[JDRouterBlock];
+        JDRouterAction action = parameters[JDRouterBlock];
         if (completion) {
             parameters[JDRouterCompletion] = completion;
         }
-        if (userInfo) {
+        if(userInfo) {
             [parameters addEntriesFromDictionary:userInfo];
         }
-        if (handler) {
+        if(action) {
             [parameters removeObjectForKey:JDRouterBlock];
-            handler(parameters);
+            action(parameters);
         }
     }
 }
@@ -206,7 +209,7 @@ NSString *const JDRouterCompletion = @"JDRouterCompletion";
                 parameters[newKey] = newPathComponent;
             }
         }
-        // 如果没有找到该 pathComponent 对应的 handler，则以上一层的 handler 作为 fallback
+        // 如果没有找到该 pathComponent 对应的 Action，则以上一层的 Action 作为 fallback
         if (!found && !subRoutes[@"_"]) {
             return nil;
         }
@@ -253,13 +256,13 @@ NSString *const JDRouterCompletion = @"JDRouterCompletion";
             parameters[key] = [obj stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         }
     }];
-    JDRouterObjectHandler handler = parameters[JDRouterBlock];
-    if (handler) {
+    JDRouterObjectAction action = parameters[JDRouterBlock];
+    if (action) {
         if (userInfo) {
             [parameters addEntriesFromDictionary:userInfo];
         }
         [parameters removeObjectForKey:JDRouterBlock];
-        return handler(parameters.copy);
+        return action(parameters.copy);
     }
     return nil;
 }

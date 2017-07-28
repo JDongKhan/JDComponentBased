@@ -2,17 +2,32 @@
 //  JDRouter+viewController.h
 //  Pods
 //
-//  Created by 王金东 on 2017/7/27.
+//  Created by 王金东 on 2016/1/27.
 //
 //
 
 #import "JDRouter.h"
+#import <UIKit/UIKit.h>
+
+
+/**
+ 专门为viewController设置的
+ **/
+
 
 @interface JDRouter (viewController)
 
+
 + (void)registerURI:(NSString *)URI
-            handler:(JDRouterHandler)handler
+            action:(JDRouterAction)action
               toVc:(UIViewController *(^)())toVcClazz;
+
+
+
+
++ (void)openURI:(NSString *)URI
+         fromVc:(UIViewController *)fromVc;
+
 
 + (void)openURI:(NSString *)URI
          fromVc:(UIViewController *)fromVc

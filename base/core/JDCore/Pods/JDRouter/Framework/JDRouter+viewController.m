@@ -2,7 +2,7 @@
 //  JDRouter+viewController.m
 //  Pods
 //
-//  Created by 王金东 on 2017/7/27.
+//  Created by 王金东 on 2016/1/27.
 //
 //
 
@@ -24,9 +24,9 @@ NSString *const JDRouterFromViewController = @"JDRouterFromView";
 @implementation JDRouter (viewController)
 
 + (void)registerURI:(NSString *)URI
-            handler:(JDRouterHandler)handler
+            action:(JDRouterAction)action
               toVc:(UIViewController *(^)())toVcClazz {
-    [JDRouter registerURI:URI handler:^(NSDictionary *parameters) {
+    [JDRouter registerURI:URI action:^(NSDictionary *parameters) {
         NSMutableDictionary *p = parameters.mutableCopy;
         UIViewController *fromVC = p[JDRouterFromViewController];
         UIViewController *toVC = toVcClazz();
@@ -38,11 +38,17 @@ NSString *const JDRouterFromViewController = @"JDRouterFromView";
             JDRoter_NoWarningPerformSelector(toVC, selector, newP[key]);
         }
         [fromVC.navigationController pushViewController:toVC animated:YES];
-        if (handler) {
-            handler(newP);
+        if (action) {
+            action(newP);
         }
     }];
-    
+}
+
+
+
++ (void)openURI:(NSString *)URI
+         fromVc:(UIViewController *)fromVc{
+    [self openURI:URI fromVc:fromVc completion:nil];
 }
 
 + (void)openURI:(NSString *)URI

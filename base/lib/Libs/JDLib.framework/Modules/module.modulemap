@@ -1,0 +1,6 @@
+framework module JDLib {
+  umbrella header "JDLib.h"
+
+  export *
+  module * { export * }
+}

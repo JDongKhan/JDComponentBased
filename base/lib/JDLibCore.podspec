@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios,'7.0'
 
-  spec.source_files = 'Framework/**/*.{h,m,mm}'
-  spec.resource = 'Framework/**/*.{png,xib,plist}'
+  #spec.source_files = 'Framework/**/*.{h,m,mm}'
+  #spec.resource = 'Framework/**/*.{png,xib,plist}'
 
   spec.requires_arc = true
   spec.ios.deployment_target = '7.0'

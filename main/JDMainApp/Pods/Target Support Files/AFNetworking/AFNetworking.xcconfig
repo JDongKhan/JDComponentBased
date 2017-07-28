@@ -1,6 +1,6 @@
 CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/AFNetworking
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/AFNetworking" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JDCore" "${PODS_ROOT}/Headers/Public/JDLib" "${PODS_ROOT}/Headers/Public/JDLibCore" "${PODS_ROOT}/Headers/Public/JDNetwork" "${PODS_ROOT}/Headers/Public/JDOrder" "${PODS_ROOT}/Headers/Public/JDResources" "${PODS_ROOT}/Headers/Public/JDUIKit" "${PODS_ROOT}/Headers/Public/JDUser" "${PODS_ROOT}/Headers/Public/JDUtils"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/AFNetworking" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JDCore" "${PODS_ROOT}/Headers/Public/JDLibCore" "${PODS_ROOT}/Headers/Public/JDNetwork" "${PODS_ROOT}/Headers/Public/JDOrder" "${PODS_ROOT}/Headers/Public/JDResources" "${PODS_ROOT}/Headers/Public/JDRouter" "${PODS_ROOT}/Headers/Public/JDUIKit" "${PODS_ROOT}/Headers/Public/JDUser" "${PODS_ROOT}/Headers/Public/JDUtils"
 OTHER_LDFLAGS = -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

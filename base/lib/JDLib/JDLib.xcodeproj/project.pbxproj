@@ -25,6 +25,8 @@
 		4D147A281F273DC700C9569C /* JDDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D147A261F273DC700C9569C /* JDDynamic.h */; };
 		4D147A291F273DC700C9569C /* JDDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D147A271F273DC700C9569C /* JDDynamic.m */; };
 		4D1AF2F71F2737BC006B7845 /* JDLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1AF2F51F2737BC006B7845 /* JDLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D8DB5351F2AF457003249CD /* NSObject+jd_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8DB5331F2AF457003249CD /* NSObject+jd_lib.h */; };
+		4D8DB5361F2AF457003249CD /* NSObject+jd_lib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DB5341F2AF457003249CD /* NSObject+jd_lib.m */; };
 		7F02374CEFBE685E486B402E /* libPods-JDLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966A47B3D11BF297577C0A3 /* libPods-JDLib.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		4D1AF2F21F2737BC006B7845 /* JDLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1AF2F51F2737BC006B7845 /* JDLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLib.h; sourceTree = "<group>"; };
 		4D1AF2F61F2737BC006B7845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8DB5331F2AF457003249CD /* NSObject+jd_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+jd_lib.h"; sourceTree = "<group>"; };
+		4D8DB5341F2AF457003249CD /* NSObject+jd_lib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+jd_lib.m"; sourceTree = "<group>"; };
 		5966A47B3D11BF297577C0A3 /* libPods-JDLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BA994F60ECBFF07AFF45A8 /* Pods-JDLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDLib/Pods-JDLib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +68,8 @@
 		4D147A251F273DC700C9569C /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				4D8DB5331F2AF457003249CD /* NSObject+jd_lib.h */,
+				4D8DB5341F2AF457003249CD /* NSObject+jd_lib.m */,
 				4D147A261F273DC700C9569C /* JDDynamic.h */,
 				4D147A271F273DC700C9569C /* JDDynamic.m */,
 			);
@@ -124,6 +130,7 @@
 			files = (
 				4D147A281F273DC700C9569C /* JDDynamic.h in Headers */,
 				4D1AF2F71F2737BC006B7845 /* JDLib.h in Headers */,
+				4D8DB5351F2AF457003249CD /* NSObject+jd_lib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D147A291F273DC700C9569C /* JDDynamic.m in Sources */,
+				4D8DB5361F2AF457003249CD /* NSObject+jd_lib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +449,7 @@
 				4D8DB50E1F2AE5F1003249CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fdSwsdJ1OBbMOuLvRU5Mw0ZI7UQ=
+		6DW+E+NvEPdi5mn00MKrx7orwe4=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -32,6 +32,18 @@
 		<data>
 		N8Q5gohKr8PKW0zB9ulNshdlqFU=
 		</data>
+		<key>Frameworks/JDLib.framework/Info.plist</key>
+		<data>
+		EsnoRiwJUTbT5HIGy7jpoQFnHUc=
+		</data>
+		<key>Frameworks/JDLib.framework/JDLib</key>
+		<data>
+		6yxE0ftVxub2Tt7pMXUk8mzwlVA=
+		</data>
+		<key>Frameworks/JDLib.framework/_CodeSignature/CodeResources</key>
+		<data>
+		nRd87ui85cTwOOXda8Gn8y9sU3w=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		NpUvLGaP7Zou4cnm+r8Lgx//n9U=
@@ -51,11 +63,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fdSwsdJ1OBbMOuLvRU5Mw0ZI7UQ=
+			6DW+E+NvEPdi5mn00MKrx7orwe4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+D8MoGzV3ly8963+ScKn8bFuhHvFOuVeMFcPO/oxdQE=
+			YlfBqDPruSHoSQ6XqP4YGsNlurZ4VMVeQ9wsBTRhXps=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -122,6 +134,39 @@
 			<key>hash2</key>
 			<data>
 			7RmcZtEoK63tjYhZXMFypDCm+Iac/YgBDUTLHHyrY+8=
+			</data>
+		</dict>
+		<key>Frameworks/JDLib.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EsnoRiwJUTbT5HIGy7jpoQFnHUc=
+			</data>
+			<key>hash2</key>
+			<data>
+			V3OLpKbn4xChiA/lNqAIl2vHfF/Z8fZgDpQ9/9U11Fk=
+			</data>
+		</dict>
+		<key>Frameworks/JDLib.framework/JDLib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6yxE0ftVxub2Tt7pMXUk8mzwlVA=
+			</data>
+			<key>hash2</key>
+			<data>
+			sar9HlUxAPsAsHNIqDyWNqP7LB0h8fawzJQsd+5Bghg=
+			</data>
+		</dict>
+		<key>Frameworks/JDLib.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nRd87ui85cTwOOXda8Gn8y9sU3w=
+			</data>
+			<key>hash2</key>
+			<data>
+			USSmf8J6PI6tGnr+pRQMhUFs4DyIq8rCsAaNdU/opVo=
 			</data>
 		</dict>
 		<key>test3.gif</key>

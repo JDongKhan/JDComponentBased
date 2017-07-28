@@ -5,7 +5,7 @@ target 'JDMainApp' do
  
 
 #base
-pod 'JDLib', :path => '../../base/lib/JDLib/JDLib.podspec'
+#pod 'JDLib', :path => '../../base/lib/JDLib/JDLib.podspec'
 
 pod 'JDLibCore', :path => '../../base/lib/JDLibCore.podspec'
 

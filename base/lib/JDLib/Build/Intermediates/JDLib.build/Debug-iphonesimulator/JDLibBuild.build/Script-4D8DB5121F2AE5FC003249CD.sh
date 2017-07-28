@@ -9,7 +9,7 @@ OUTPUTFOLDER=${BUILD_DIR}
 else
 OUTPUTFOLDER=build
 fi
-echo OUTPUTFOLDER
+
 #合并后的文件夹名称后缀
 OUTPUTFOLDER_SUFFIX="universal"
 

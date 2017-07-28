@@ -18,5 +18,10 @@
   "source_files": "Framework/**/*.{h,m,mm}",
   "resources": "Framework/**/*.{png,xib,plist}",
   "requires_arc": true,
-  "public_header_files": "Framework/**/*.h"
+  "public_header_files": "Framework/**/*.h",
+  "dependencies": {
+    "JDRouter": [
+
+    ]
+  }
 }

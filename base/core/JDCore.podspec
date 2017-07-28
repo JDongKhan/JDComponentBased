@@ -17,7 +17,8 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '7.0'
   
   spec.public_header_files = 'Framework/**/*.h'
-
+ 
   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个spec.dependency
+  spec.dependency 'JDRouter'
 
 end

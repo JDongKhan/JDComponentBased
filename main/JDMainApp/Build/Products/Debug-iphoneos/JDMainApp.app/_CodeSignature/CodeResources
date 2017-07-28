@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		bmaezcpkrNjZ2DgkrkdVTqzUhgs=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		Y9UcKE+NZkmxGZ+FSst70IVjOJs=
+		7xSVOfGsylQOfny3/kAbWr26dHU=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,11 +18,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		x9TFePz+PRQlNW0aWeDcBxr6Irw=
+		aim8hW4A11tssKOfyn+SeQwjsps=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		qyA+U6M4WMfhyVSKDuEloJhTGoY=
+		LnIS5mrl3DGgR1+TgQl7Gp2OJjY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,11 +30,23 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		8T3+ec8op8LlPve3OGeJINJwfe4=
+		P5jFCSFD6N2uUyqccaWaTnSP7sg=
+		</data>
+		<key>Frameworks/JDLib.framework/Info.plist</key>
+		<data>
+		EsnoRiwJUTbT5HIGy7jpoQFnHUc=
+		</data>
+		<key>Frameworks/JDLib.framework/JDLib</key>
+		<data>
+		fvzccMs3a4a2AyASh1V+v9nfPgQ=
+		</data>
+		<key>Frameworks/JDLib.framework/_CodeSignature/CodeResources</key>
+		<data>
+		nRd87ui85cTwOOXda8Gn8y9sU3w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6pUd7phTgjvVCdMdr9Jur6L7ysM=
+		fEHJMxeisJakvPg3EZABgWtZj9E=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -40,18 +56,33 @@
 		<data>
 		xkQuEcpoM9ksLYCgLBBTXm4RaNk=
 		</data>
+		<key>test3.gif</key>
+		<data>
+		kJa9jzdshTrTuqo4RSPqaKzwsv8=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bmaezcpkrNjZ2DgkrkdVTqzUhgs=
+			</data>
+			<key>hash2</key>
+			<data>
+			PzBmOHV/D/8wjKMnQ3AHk4K2kuWh8LhprU0ga6rMiiQ=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y9UcKE+NZkmxGZ+FSst70IVjOJs=
+			7xSVOfGsylQOfny3/kAbWr26dHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			x/ZJKkQQUoT9ZT8yYNJj0RQ3PIz43cShck4FBkzAZLE=
+			Fq2LykMQxj0ypSJadsKGqzbcgUiKyPOPJaEzO6fLLu8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -69,22 +100,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x9TFePz+PRQlNW0aWeDcBxr6Irw=
+			aim8hW4A11tssKOfyn+SeQwjsps=
 			</data>
 			<key>hash2</key>
 			<data>
-			VlIdZ3PjAYUJG7CXhwJLU5O5KRbUdjYQ+5lFWpqoMIQ=
+			dbG42HUlQKo29gwsydcGXHRwI8WADx3zBXyobyNj88E=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qyA+U6M4WMfhyVSKDuEloJhTGoY=
+			LnIS5mrl3DGgR1+TgQl7Gp2OJjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			DnTtYEH0KrQ2pfSf2QtL4YtCIPda6IHlaOR7AtMmh8E=
+			ePODjU0unnJ09Eh2aRPmTQZ6CZl/is+2cHYTf9z/gto=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -102,11 +133,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8T3+ec8op8LlPve3OGeJINJwfe4=
+			P5jFCSFD6N2uUyqccaWaTnSP7sg=
 			</data>
 			<key>hash2</key>
 			<data>
-			nQEOfmSB5cQurpAs3+R4KSysglHy/paqeCm4l9W1eG4=
+			uEHGOvp1/jcbL9NZ2ONpGZSyqutm9urri3M5isAT13E=
+			</data>
+		</dict>
+		<key>Frameworks/JDLib.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EsnoRiwJUTbT5HIGy7jpoQFnHUc=
+			</data>
+			<key>hash2</key>
+			<data>
+			V3OLpKbn4xChiA/lNqAIl2vHfF/Z8fZgDpQ9/9U11Fk=
+			</data>
+		</dict>
+		<key>Frameworks/JDLib.framework/JDLib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fvzccMs3a4a2AyASh1V+v9nfPgQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			lTEAL6hGFRrdkCN2P8r82m3AClCTMQONwZ91ADbmbDA=
+			</data>
+		</dict>
+		<key>Frameworks/JDLib.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nRd87ui85cTwOOXda8Gn8y9sU3w=
+			</data>
+			<key>hash2</key>
+			<data>
+			USSmf8J6PI6tGnr+pRQMhUFs4DyIq8rCsAaNdU/opVo=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -118,6 +182,17 @@
 			<key>hash2</key>
 			<data>
 			57teHPnWFp7aIun+KrK9gfZ+yxHaBOzKCo1Uc5Cw1lY=
+			</data>
+		</dict>
+		<key>test3.gif</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kJa9jzdshTrTuqo4RSPqaKzwsv8=
+			</data>
+			<key>hash2</key>
+			<data>
+			rEjWGO6FfZN0FzMJV4tVTc2SivtEd3HOPsxB9XA8miE=
 			</data>
 		</dict>
 	</dict>

@@ -14,20 +14,20 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - JDCore (0.0.1)
-  - JDLib (0.0.1)
+  - JDCore (0.0.1):
+    - JDRouter
   - JDLibCore (0.0.1)
   - JDNetwork (0.0.1):
     - AFNetworking
   - JDOrder (0.0.1)
   - JDResources (0.0.1)
+  - JDRouter (1.2.4)
   - JDUIKit (0.0.1)
   - JDUser (0.0.1)
   - JDUtils (0.0.1)
 
 DEPENDENCIES:
   - JDCore (from `../../base/core/JDCore.podspec`)
-  - JDLib (from `../../base/lib/JDLib/JDLib.podspec`)
   - JDLibCore (from `../../base/lib/JDLibCore.podspec`)
   - JDNetwork (from `../../base/net/JDNetwork.podspec`)
   - JDOrder (from `../../business/order/JDOrder/JDOrder.podspec`)
@@ -39,8 +39,6 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   JDCore:
     :path: ../../base/core/JDCore.podspec
-  JDLib:
-    :path: ../../base/lib/JDLib/JDLib.podspec
   JDLibCore:
     :path: ../../base/lib/JDLibCore.podspec
   JDNetwork:
@@ -58,16 +56,16 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  JDCore: 63ca8a83991f86c9936fbd23fa415de7c0f9fc7d
-  JDLib: ae545a4f01d1113fd7a9fb622eff84c3410d1933
-  JDLibCore: a80bf3d197c94b719df55d314753f697a388f823
+  JDCore: 51a779ba4dada50d3449e6eaee8ca9b60a73a85b
+  JDLibCore: 50cb4516f4749d0e57012db22b19ad15cb2bb6a4
   JDNetwork: 0e86eb5d93cac622834094ca8aca4e07304634be
   JDOrder: 9eab189d871eada7f7c31501643135bf1b9b48c2
   JDResources: a0a878c1be48ab338c880a18f75709f6d5b9cf52
+  JDRouter: 457e6ec94b255c03c47edcaf2e8d53a757abd175
   JDUIKit: 00d3de9457563d96c83c1b97a0a5982705d624ca
   JDUser: 431a5bd5461b6013a84d486c8bf6138dd667022e
   JDUtils: 8d35c9ed19fdb64a1c7598828975080f00f80e65
 
-PODFILE CHECKSUM: 4bc117ac8fef6552b60fb8fbf9f9143fee58abc7
+PODFILE CHECKSUM: ff9993fa11b240304fbdfe43c57edd7ddd63f5fb
 
 COCOAPODS: 1.2.0.beta.3

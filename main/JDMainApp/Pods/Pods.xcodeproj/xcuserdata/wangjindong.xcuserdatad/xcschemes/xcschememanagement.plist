@@ -9,22 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JDCore.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>JDLib.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>JDLibCore.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>JDNetwork.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JDRouter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,27 +47,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A0A84A5A58385E8331EFAB3F0142FCA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5F284533F22200D44DBD68A3725498B9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>91826F2E8BE6D48C1A8248DE379ED402</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>95525DB1A3FFACED594E54CE6E7BC292</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C645C0D77CE2026E4EA1BE50BEC99D2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6A92035CEAA0C51029378684F186166</key>
 		<dict>
 			<key>primary</key>
 			<true/>

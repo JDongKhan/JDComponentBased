@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <JDRouter/JDModuleManager.h>
+#import "JDMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    JDMainViewController *vc = [[JDMainViewController alloc] init];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
    return [[JDModuleManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

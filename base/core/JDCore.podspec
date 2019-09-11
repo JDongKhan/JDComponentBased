@@ -8,13 +8,13 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "http://twitter.com/hundsun"
   spec.source = {:svn => '', :tag => ''}
 
-  spec.platform = :ios,'7.0'
+  spec.platform = :ios,'8.0'
 
   spec.source_files = 'Framework/**/*.{h,m,mm}'
   spec.resource = 'Framework/**/*.{png,xib,plist}'
 
   spec.requires_arc = true
-  spec.ios.deployment_target = '7.0'
+  spec.ios.deployment_target = '8.0'
   
   spec.public_header_files = 'Framework/**/*.h'
  

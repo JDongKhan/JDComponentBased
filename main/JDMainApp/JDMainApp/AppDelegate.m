@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <JDRouter/JDModuleManager.h>
 
 @interface AppDelegate ()
 
@@ -16,8 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+   return [[JDModuleManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 

@@ -1,18 +1,18 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - JDCore (0.0.1):
     - JDRouter
@@ -21,7 +21,11 @@ PODS:
     - AFNetworking
   - JDOrder (0.0.1)
   - JDResources (0.0.1)
-  - JDRouter (1.2.4)
+  - JDRouter (2.0.0):
+    - JDRouter/Annotation (= 2.0.0)
+    - JDRouter/Intent (= 2.0.0)
+  - JDRouter/Annotation (2.0.0)
+  - JDRouter/Intent (2.0.0)
   - JDUIKit (0.0.1)
   - JDUser (0.0.1)
   - JDUtils (0.0.1)
@@ -36,36 +40,41 @@ DEPENDENCIES:
   - JDUser (from `../../business/user/JDUser/JDUser.podspec`)
   - JDUtils (from `../../base/utils/JDUtils.podspec`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - JDRouter
+
 EXTERNAL SOURCES:
   JDCore:
-    :path: ../../base/core/JDCore.podspec
+    :path: "../../base/core/JDCore.podspec"
   JDLibCore:
-    :path: ../../base/lib/JDLibCore.podspec
+    :path: "../../base/lib/JDLibCore.podspec"
   JDNetwork:
-    :path: ../../base/net/JDNetwork.podspec
+    :path: "../../base/net/JDNetwork.podspec"
   JDOrder:
-    :path: ../../business/order/JDOrder/JDOrder.podspec
+    :path: "../../business/order/JDOrder/JDOrder.podspec"
   JDResources:
-    :path: ../../business/resources/JDResources.podspec
+    :path: "../../business/resources/JDResources.podspec"
   JDUIKit:
-    :path: ../../base/ui/JDUIKit.podspec
+    :path: "../../base/ui/JDUIKit.podspec"
   JDUser:
-    :path: ../../business/user/JDUser/JDUser.podspec
+    :path: "../../business/user/JDUser/JDUser.podspec"
   JDUtils:
-    :path: ../../base/utils/JDUtils.podspec
+    :path: "../../base/utils/JDUtils.podspec"
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  JDCore: 51a779ba4dada50d3449e6eaee8ca9b60a73a85b
-  JDLibCore: 50cb4516f4749d0e57012db22b19ad15cb2bb6a4
-  JDNetwork: 0e86eb5d93cac622834094ca8aca4e07304634be
-  JDOrder: 9eab189d871eada7f7c31501643135bf1b9b48c2
-  JDResources: a0a878c1be48ab338c880a18f75709f6d5b9cf52
-  JDRouter: 457e6ec94b255c03c47edcaf2e8d53a757abd175
-  JDUIKit: 00d3de9457563d96c83c1b97a0a5982705d624ca
-  JDUser: 431a5bd5461b6013a84d486c8bf6138dd667022e
-  JDUtils: 8d35c9ed19fdb64a1c7598828975080f00f80e65
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JDCore: 317df4aa150e11f8cf4cc9e376f6118026340949
+  JDLibCore: 32ce7332cd935d4babd54da258b4dc867a775f41
+  JDNetwork: 3cb5603493300e76384fc959f510f56abf352608
+  JDOrder: a6a6c8140f6949040f56df53ed2b6f27db8ed353
+  JDResources: b050a694b19d5770169fb313725966de64ed9381
+  JDRouter: 62ae32a2215cd824606e8c7ee79f6a7bc21ddbd7
+  JDUIKit: 8046947cd8b3c07f35f0feb2fcaa597442e6232d
+  JDUser: e3d853b780796260d03121bee2eca89addcfa641
+  JDUtils: 09a74b8b28b57fe8b9daa94cb9741aa4010bfd3a
 
 PODFILE CHECKSUM: ff9993fa11b240304fbdfe43c57edd7ddd63f5fb
 
-COCOAPODS: 1.2.0.beta.3
+COCOAPODS: 1.7.5

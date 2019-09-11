@@ -11,7 +11,6 @@
 		4D1AF2D61F273717006B7845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AF2D51F273717006B7845 /* AppDelegate.m */; };
 		4D1AF2D91F273717006B7845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AF2D81F273717006B7845 /* ViewController.m */; };
 		4D1AF2DC1F273717006B7845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AF2DA1F273717006B7845 /* Main.storyboard */; };
-		4D1AF2DE1F273717006B7845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AF2DD1F273717006B7845 /* Assets.xcassets */; };
 		4D1AF2E11F273717006B7845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AF2DF1F273717006B7845 /* LaunchScreen.storyboard */; };
 		5A2727AE1EF8185ABC99FE0D /* libPods-JDMainApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D83B86C447EA2BB2B3F9410 /* libPods-JDMainApp.a */; };
 /* End PBXBuildFile section */
@@ -147,6 +146,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -166,7 +166,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1AF2E11F273717006B7845 /* LaunchScreen.storyboard in Resources */,
-				4D1AF2DE1F273717006B7845 /* Assets.xcassets in Resources */,
 				4D1AF2DC1F273717006B7845 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,13 +179,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JDMainApp/Pods-JDMainApp-frameworks.sh",
+				"${PODS_ROOT}/../../../base/lib/Libs/JDLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JDLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDMainApp/Pods-JDMainApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JDMainApp/Pods-JDMainApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5073394F8A1DCCC7F052CF97 /* [CP] Check Pods Manifest.lock */ = {
@@ -195,13 +197,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDMainApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D3342D5CB6E3463C8B03403E /* [CP] Copy Pods Resources */ = {
@@ -210,13 +215,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JDMainApp/Pods-JDMainApp-resources.sh",
+				"${PODS_ROOT}/../../../business/resources/Assets.xcassets",
+				"${PODS_ROOT}/../../../business/resources/other/test3.gif",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/test3.gif",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDMainApp/Pods-JDMainApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JDMainApp/Pods-JDMainApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

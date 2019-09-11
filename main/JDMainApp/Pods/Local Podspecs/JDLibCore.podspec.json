@@ -13,7 +13,7 @@
     "tag": ""
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "public_header_files": "Framework/**/*.h",

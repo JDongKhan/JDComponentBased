@@ -13,7 +13,7 @@
     "tag": ""
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "source_files": "Sources/**/*.{h,m,mm}",
   "resources": "Sources/**/*.{png,xib,plist}",

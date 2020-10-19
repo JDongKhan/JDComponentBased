@@ -21,12 +21,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JDPageManager : NSObject<JDPageFeatureProtocol>
 
+//注册所有feature
 - (void)registerAll:(NSArray<JDPageFeatureConfig *> *)features;
 
+//注册单个
 - (void)register:(JDPageFeatureConfig *)featureConfig;
 
+//去除注册
 - (void)unregister:(JDPageFeatureConfig *)featureConfig;
 
+//根据id获取JDPageFeature
 - (JDPageFeature *)featureForTag:(NSInteger)featureID;
 
 @end

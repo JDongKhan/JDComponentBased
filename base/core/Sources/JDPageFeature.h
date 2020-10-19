@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JDPageFeature : NSObject<JDPageFeatureProtocol>
 
+//feature id，可传枚举
 @property (nonatomic, assign) NSInteger featureID;
 
 @end

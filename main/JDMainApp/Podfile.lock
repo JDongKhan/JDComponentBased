@@ -1,18 +1,18 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - JDCore (0.0.1):
     - JDRouter
@@ -41,7 +41,7 @@ DEPENDENCIES:
   - JDUtils (from `../../base/utils/JDUtils.podspec`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AFNetworking
     - JDRouter
 
@@ -64,8 +64,8 @@ EXTERNAL SOURCES:
     :path: "../../base/utils/JDUtils.podspec"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  JDCore: 317df4aa150e11f8cf4cc9e376f6118026340949
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  JDCore: 3127fe2ca3b73eb6a28d6b72e9c69533b86534df
   JDLibCore: 32ce7332cd935d4babd54da258b4dc867a775f41
   JDNetwork: 3cb5603493300e76384fc959f510f56abf352608
   JDOrder: a6a6c8140f6949040f56df53ed2b6f27db8ed353
@@ -75,6 +75,6 @@ SPEC CHECKSUMS:
   JDUser: e3d853b780796260d03121bee2eca89addcfa641
   JDUtils: 09a74b8b28b57fe8b9daa94cb9741aa4010bfd3a
 
-PODFILE CHECKSUM: ff9993fa11b240304fbdfe43c57edd7ddd63f5fb
+PODFILE CHECKSUM: 720c6bc4cdab6b9440b57783f0bd7621c3ddb860
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.1

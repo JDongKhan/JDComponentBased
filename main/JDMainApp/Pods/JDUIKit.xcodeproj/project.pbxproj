@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E844CB29207C520E7FC1A9D4D559719 /* JDView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2189508F946C101FBE7B02E8E11833 /* JDView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39CBD024220995A682EC7DA57D0D7B78 /* JDUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E15A0C85C6311D0E355E61654719030A /* JDUIKit-dummy.m */; };
+		493619EA2856CD1B8322760E214E51D5 /* JDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D65EDAD2421B7FCBF90AA82410769 /* JDView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2189508F946C101FBE7B02E8E11833 /* JDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDView.h; path = Framework/JDView.h; sourceTree = "<group>"; };
+		7307E72A391B585414890906DF602348 /* JDUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDUIKit-prefix.pch"; sourceTree = "<group>"; };
+		761D65EDAD2421B7FCBF90AA82410769 /* JDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDView.m; path = Framework/JDView.m; sourceTree = "<group>"; };
+		8B1FA1D716DC27BB19012062CDA8C155 /* JDUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JDUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEFF182010C12FD450F1D89D7812BE07 /* JDUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		AFC65ACAE0524D554D5C530122A6C45E /* libJDUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJDUIKit.a; path = libJDUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15A0C85C6311D0E355E61654719030A /* JDUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDUIKit-dummy.m"; sourceTree = "<group>"; };
+		EC5F5A2FF008380BAAD27326BB747C08 /* JDUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDUIKit.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCDBDF46EB1D4D34FFA63615CA955D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C471A0427A260351B56BE0F3720908 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B1FA1D716DC27BB19012062CDA8C155 /* JDUIKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4B36D0CB2EF3F87F54129D9B25297D40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76E03DA7087DCD3AF06E93CD57A62516 = {
+			isa = PBXGroup;
+			children = (
+				4B36D0CB2EF3F87F54129D9B25297D40 /* Frameworks */,
+				884D8C5B79ECEBD47EBED663A1D34F53 /* JDUIKit */,
+				D1BC1CF591E56FCF415CE9A721F4262B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884D8C5B79ECEBD47EBED663A1D34F53 /* JDUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A2189508F946C101FBE7B02E8E11833 /* JDView.h */,
+				761D65EDAD2421B7FCBF90AA82410769 /* JDView.m */,
+				02C471A0427A260351B56BE0F3720908 /* Pod */,
+				D7B9AB27DCFB78AF80B841709C4A05D5 /* Support Files */,
+			);
+			name = JDUIKit;
+			path = ../../../base/ui;
+			sourceTree = "<group>";
+		};
+		D1BC1CF591E56FCF415CE9A721F4262B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC65ACAE0524D554D5C530122A6C45E /* libJDUIKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B9AB27DCFB78AF80B841709C4A05D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E15A0C85C6311D0E355E61654719030A /* JDUIKit-dummy.m */,
+				7307E72A391B585414890906DF602348 /* JDUIKit-prefix.pch */,
+				AEFF182010C12FD450F1D89D7812BE07 /* JDUIKit.debug.xcconfig */,
+				EC5F5A2FF008380BAAD27326BB747C08 /* JDUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../main/JDMainApp/Pods/Target Support Files/JDUIKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E00891E4A84E5EE248CA35FCA7FE3848 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E844CB29207C520E7FC1A9D4D559719 /* JDView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EFE65762BAE324B4404674407565E460 /* JDUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2CA666DF4C54DD0E30313E69CDB629 /* Build configuration list for PBXNativeTarget "JDUIKit" */;
+			buildPhases = (
+				E00891E4A84E5EE248CA35FCA7FE3848 /* Headers */,
+				AC2A6F75A7B3033D5A71062BE2EC5C30 /* Sources */,
+				4BCDBDF46EB1D4D34FFA63615CA955D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDUIKit;
+			productName = JDUIKit;
+			productReference = AFC65ACAE0524D554D5C530122A6C45E /* libJDUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D957E4A75DEBE78CD4A24688B28AE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = F16684C37BD20F8F0F53585F50D9FC95 /* Build configuration list for PBXProject "JDUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76E03DA7087DCD3AF06E93CD57A62516;
+			productRefGroup = D1BC1CF591E56FCF415CE9A721F4262B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE65762BAE324B4404674407565E460 /* JDUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC2A6F75A7B3033D5A71062BE2EC5C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CBD024220995A682EC7DA57D0D7B78 /* JDUIKit-dummy.m in Sources */,
+				493619EA2856CD1B8322760E214E51D5 /* JDView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24918570E2058F552E35B2A61D39F74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFF182010C12FD450F1D89D7812BE07 /* JDUIKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JDUIKit/JDUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JDUIKit;
+				PRODUCT_NAME = JDUIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3E77BE1AB5789C92C6685F0E15035A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7C05AA32AA12814CF3B62C0F5A8226E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5F5A2FF008380BAAD27326BB747C08 /* JDUIKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JDUIKit/JDUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JDUIKit;
+				PRODUCT_NAME = JDUIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FA18AB34773F39DA11E441C8A13D460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2CA666DF4C54DD0E30313E69CDB629 /* Build configuration list for PBXNativeTarget "JDUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24918570E2058F552E35B2A61D39F74B /* Debug */,
+				7C05AA32AA12814CF3B62C0F5A8226E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16684C37BD20F8F0F53585F50D9FC95 /* Build configuration list for PBXProject "JDUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA18AB34773F39DA11E441C8A13D460 /* Debug */,
+				6E3E77BE1AB5789C92C6685F0E15035A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D957E4A75DEBE78CD4A24688B28AE1E /* Project object */;
+}

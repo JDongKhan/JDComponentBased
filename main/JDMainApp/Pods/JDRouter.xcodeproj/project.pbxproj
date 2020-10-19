@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B543E30703178869C75A94DD182075D /* JDAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E072426749C0D6EE7357D986F913ADB /* JDAnnotation.m */; };
+		1135A40BCFAE5B1E00B023EA00899520 /* JDRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB29B06C3652C134E2A1EA4AD55E186 /* JDRouter-dummy.m */; };
+		25EAB80F416BDAD1DA63909C29857AE6 /* JDModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 556B138B5B9B91E9AC48E92A0E73537B /* JDModuleCenter.m */; };
+		3BD278DA672FE8F564CE0CA47B5B128F /* JDModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 255AEF69E3BDA9CF56A5A9D7B3D22261 /* JDModuleManager.m */; };
+		3C9A572AA872B838C2C8D5B2365C3313 /* JDModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E972E33513548AC3C45F134763A398E8 /* JDModuleCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C6D7E3EDFCD17084EAABBCBE34A1913 /* JDServiceCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC3BCAA49BDD1E43B5E2FFEA0742B2F /* JDServiceCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50EDC4A27F416CFB6D649FC1B90FFF1F /* JDRouterCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = D5760DA8665BF438E50649153E7754C8 /* JDRouterCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5382662A4E8436D11292829B718647E4 /* JDApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C4C0425CBF68C04B2180F48172ECA6 /* JDApplicationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5589727542D00250CA7BC3CD358021FC /* JDModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 042D334AB897C2CEA611F0BC2E5BC334 /* JDModuleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B8A40858C5FA1FCBD01754B30235811 /* JDIntent.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B3333088D864DA81A84112A1680301 /* JDIntent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68E106371DBD95FBE9FE307E55C8ADB9 /* JDIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C94CB943E1A2FF22C01BC412466E223 /* JDIntent.m */; };
+		6E622636E19ED8922C75FEBFBBCD8591 /* JDAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1229F7826C42C0DB5B00FEE57351AFD1 /* JDAnnotation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89FE33CAEAA291182A41CDF013610D26 /* JDServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D850E5B414D411797076F67F6D3F01B6 /* JDServiceCenter.m */; };
+		C99187D3729A78546C16E88A818F3731 /* JDRouterCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F103746A4037A650D728AB97A1BBE030 /* JDRouterCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042D334AB897C2CEA611F0BC2E5BC334 /* JDModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDModuleManager.h; path = Sources/Annotation/JDModuleManager.h; sourceTree = "<group>"; };
+		0C8188150FD6F8E48336C561224FBCD8 /* JDRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDRouter-prefix.pch"; sourceTree = "<group>"; };
+		1229F7826C42C0DB5B00FEE57351AFD1 /* JDAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDAnnotation.h; path = Sources/Annotation/JDAnnotation.h; sourceTree = "<group>"; };
+		12B3333088D864DA81A84112A1680301 /* JDIntent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDIntent.h; path = Sources/Intent/JDIntent.h; sourceTree = "<group>"; };
+		255AEF69E3BDA9CF56A5A9D7B3D22261 /* JDModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDModuleManager.m; path = Sources/Annotation/JDModuleManager.m; sourceTree = "<group>"; };
+		28AB88F7B310196E69BBF43A267BFCFC /* JDRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDRouter.release.xcconfig; sourceTree = "<group>"; };
+		34C4C0425CBF68C04B2180F48172ECA6 /* JDApplicationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDApplicationDelegate.h; path = Sources/Annotation/JDApplicationDelegate.h; sourceTree = "<group>"; };
+		3CC3BCAA49BDD1E43B5E2FFEA0742B2F /* JDServiceCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDServiceCenter.h; path = Sources/Annotation/JDServiceCenter.h; sourceTree = "<group>"; };
+		3DB29B06C3652C134E2A1EA4AD55E186 /* JDRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDRouter-dummy.m"; sourceTree = "<group>"; };
+		556B138B5B9B91E9AC48E92A0E73537B /* JDModuleCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDModuleCenter.m; path = Sources/Annotation/JDModuleCenter.m; sourceTree = "<group>"; };
+		580DB46AE65AF3258AD60AB0ECE0261A /* libJDRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJDRouter.a; path = libJDRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C94CB943E1A2FF22C01BC412466E223 /* JDIntent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDIntent.m; path = Sources/Intent/JDIntent.m; sourceTree = "<group>"; };
+		9E072426749C0D6EE7357D986F913ADB /* JDAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDAnnotation.m; path = Sources/Annotation/JDAnnotation.m; sourceTree = "<group>"; };
+		BCD20483CC38E9D8EC12DACF61194D9A /* JDRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDRouter.debug.xcconfig; sourceTree = "<group>"; };
+		D5760DA8665BF438E50649153E7754C8 /* JDRouterCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDRouterCenter.h; path = Sources/Annotation/JDRouterCenter.h; sourceTree = "<group>"; };
+		D850E5B414D411797076F67F6D3F01B6 /* JDServiceCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDServiceCenter.m; path = Sources/Annotation/JDServiceCenter.m; sourceTree = "<group>"; };
+		E972E33513548AC3C45F134763A398E8 /* JDModuleCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JDModuleCenter.h; path = Sources/Annotation/JDModuleCenter.h; sourceTree = "<group>"; };
+		F103746A4037A650D728AB97A1BBE030 /* JDRouterCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JDRouterCenter.m; path = Sources/Annotation/JDRouterCenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E004F9F562043453E1D9D3CEFE190F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0443C8278E257920C9BB2E7944A9C9BB /* JDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				28BA9AC2D0DA83A3EF32F845B0A27367 /* Annotation */,
+				633DD6081CC0FC0310A598E982E2D536 /* Intent */,
+				EA1395A8462370DC91EC3DBDF943F710 /* Support Files */,
+			);
+			name = JDRouter;
+			path = JDRouter;
+			sourceTree = "<group>";
+		};
+		22476ADABCA13238D6861E83370E3DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28BA9AC2D0DA83A3EF32F845B0A27367 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				1229F7826C42C0DB5B00FEE57351AFD1 /* JDAnnotation.h */,
+				9E072426749C0D6EE7357D986F913ADB /* JDAnnotation.m */,
+				34C4C0425CBF68C04B2180F48172ECA6 /* JDApplicationDelegate.h */,
+				E972E33513548AC3C45F134763A398E8 /* JDModuleCenter.h */,
+				556B138B5B9B91E9AC48E92A0E73537B /* JDModuleCenter.m */,
+				042D334AB897C2CEA611F0BC2E5BC334 /* JDModuleManager.h */,
+				255AEF69E3BDA9CF56A5A9D7B3D22261 /* JDModuleManager.m */,
+				D5760DA8665BF438E50649153E7754C8 /* JDRouterCenter.h */,
+				F103746A4037A650D728AB97A1BBE030 /* JDRouterCenter.m */,
+				3CC3BCAA49BDD1E43B5E2FFEA0742B2F /* JDServiceCenter.h */,
+				D850E5B414D411797076F67F6D3F01B6 /* JDServiceCenter.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		633DD6081CC0FC0310A598E982E2D536 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				12B3333088D864DA81A84112A1680301 /* JDIntent.h */,
+				8C94CB943E1A2FF22C01BC412466E223 /* JDIntent.m */,
+			);
+			name = Intent;
+			sourceTree = "<group>";
+		};
+		9C0CF900F20104528CA8DC8B4A612CE4 = {
+			isa = PBXGroup;
+			children = (
+				22476ADABCA13238D6861E83370E3DA4 /* Frameworks */,
+				0443C8278E257920C9BB2E7944A9C9BB /* JDRouter */,
+				A4266060AF2F76C1F0E587C9D5391CD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4266060AF2F76C1F0E587C9D5391CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580DB46AE65AF3258AD60AB0ECE0261A /* libJDRouter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1395A8462370DC91EC3DBDF943F710 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB29B06C3652C134E2A1EA4AD55E186 /* JDRouter-dummy.m */,
+				0C8188150FD6F8E48336C561224FBCD8 /* JDRouter-prefix.pch */,
+				BCD20483CC38E9D8EC12DACF61194D9A /* JDRouter.debug.xcconfig */,
+				28AB88F7B310196E69BBF43A267BFCFC /* JDRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JDRouter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C9EE0123072617951BAD7F7136D43B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E622636E19ED8922C75FEBFBBCD8591 /* JDAnnotation.h in Headers */,
+				5382662A4E8436D11292829B718647E4 /* JDApplicationDelegate.h in Headers */,
+				5B8A40858C5FA1FCBD01754B30235811 /* JDIntent.h in Headers */,
+				3C9A572AA872B838C2C8D5B2365C3313 /* JDModuleCenter.h in Headers */,
+				5589727542D00250CA7BC3CD358021FC /* JDModuleManager.h in Headers */,
+				50EDC4A27F416CFB6D649FC1B90FFF1F /* JDRouterCenter.h in Headers */,
+				4C6D7E3EDFCD17084EAABBCBE34A1913 /* JDServiceCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5C19E649D9348A0D9076348A367F0CB /* JDRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F84638D88AA161CEE0757CA2AD9D5C /* Build configuration list for PBXNativeTarget "JDRouter" */;
+			buildPhases = (
+				C9EE0123072617951BAD7F7136D43B7F /* Headers */,
+				BC5C025A92DD44E4CE1567B1C161EE13 /* Sources */,
+				9E004F9F562043453E1D9D3CEFE190F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDRouter;
+			productName = JDRouter;
+			productReference = 580DB46AE65AF3258AD60AB0ECE0261A /* libJDRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4122DD9EB39346A20C70862916210F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = B1F962A874ACB0223ED0E0AD80BA6D60 /* Build configuration list for PBXProject "JDRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C0CF900F20104528CA8DC8B4A612CE4;
+			productRefGroup = A4266060AF2F76C1F0E587C9D5391CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C19E649D9348A0D9076348A367F0CB /* JDRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5C025A92DD44E4CE1567B1C161EE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B543E30703178869C75A94DD182075D /* JDAnnotation.m in Sources */,
+				68E106371DBD95FBE9FE307E55C8ADB9 /* JDIntent.m in Sources */,
+				25EAB80F416BDAD1DA63909C29857AE6 /* JDModuleCenter.m in Sources */,
+				3BD278DA672FE8F564CE0CA47B5B128F /* JDModuleManager.m in Sources */,
+				1135A40BCFAE5B1E00B023EA00899520 /* JDRouter-dummy.m in Sources */,
+				C99187D3729A78546C16E88A818F3731 /* JDRouterCenter.m in Sources */,
+				89FE33CAEAA291182A41CDF013610D26 /* JDServiceCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E9C46A2DDCBD1769F1DE6FCEC8EE92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		869CB702C090E5B31B587DB756133846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD20483CC38E9D8EC12DACF61194D9A /* JDRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JDRouter/JDRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JDRouter;
+				PRODUCT_NAME = JDRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D4D069D6E6B741843089AD22404B4A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E136195C6C256249FA2D590D4D26E446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28AB88F7B310196E69BBF43A267BFCFC /* JDRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JDRouter/JDRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JDRouter;
+				PRODUCT_NAME = JDRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F962A874ACB0223ED0E0AD80BA6D60 /* Build configuration list for PBXProject "JDRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4D069D6E6B741843089AD22404B4A0 /* Debug */,
+				0E9C46A2DDCBD1769F1DE6FCEC8EE92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F84638D88AA161CEE0757CA2AD9D5C /* Build configuration list for PBXNativeTarget "JDRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869CB702C090E5B31B587DB756133846 /* Debug */,
+				E136195C6C256249FA2D590D4D26E446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4122DD9EB39346A20C70862916210F3 /* Project object */;
+}

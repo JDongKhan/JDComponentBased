@@ -1,5 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
+install! 'cocoapods',
+#incremental_installation: true,
+warn_for_multiple_pod_sources: false,
+generate_multiple_pod_projects: true
 
 target 'JDMainApp' do
  

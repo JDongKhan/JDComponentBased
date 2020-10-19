@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7E47DA814BAB99DB7309EC8D37759435 /* JDResources */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B69F28A8ADC2AFA2844CEC83BA9314E4 /* Build configuration list for PBXAggregateTarget "JDResources" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JDResources;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		16B7EAD1A2918B2788F61D37C61B4B84 /* JDResources.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JDResources.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		56E31BE102C505F0484920EAFBA1EAFB /* JDResources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDResources.release.xcconfig; sourceTree = "<group>"; };
+		69D905906338ED0E046F6FB29BFFA0AC /* JDResources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDResources.debug.xcconfig; sourceTree = "<group>"; };
+		CA0532A3E9AC63F16E9F0500C8F89B72 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0707AE5D263B2E0FFC8AB660DBD9D52 /* test3.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = test3.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F3B4547824814C0982F8F64D528927D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA0532A3E9AC63F16E9F0500C8F89B72 /* Assets.xcassets */,
+				AE4EB1DE7EEA09E84D948BB0F0E74857 /* other */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		164AE41587B826FD00B6D1A49D65FED4 /* JDResources */ = {
+			isa = PBXGroup;
+			children = (
+				196CB3C8BB785362D0EC9828ADFAE0B3 /* Pod */,
+				0F3B4547824814C0982F8F64D528927D /* Resources */,
+				90C8B35750FBDB88329510771C76DAE8 /* Support Files */,
+			);
+			name = JDResources;
+			path = ../../../business/resources;
+			sourceTree = "<group>";
+		};
+		196CB3C8BB785362D0EC9828ADFAE0B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				16B7EAD1A2918B2788F61D37C61B4B84 /* JDResources.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		260C51B7729E9A77BCA45FA146D38332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		324B8D99157269E1F0C82DEDA0C6AD18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DAE2A9E3F81543E3D258B688C106029 = {
+			isa = PBXGroup;
+			children = (
+				260C51B7729E9A77BCA45FA146D38332 /* Frameworks */,
+				164AE41587B826FD00B6D1A49D65FED4 /* JDResources */,
+				324B8D99157269E1F0C82DEDA0C6AD18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90C8B35750FBDB88329510771C76DAE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69D905906338ED0E046F6FB29BFFA0AC /* JDResources.debug.xcconfig */,
+				56E31BE102C505F0484920EAFBA1EAFB /* JDResources.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../main/JDMainApp/Pods/Target Support Files/JDResources";
+			sourceTree = "<group>";
+		};
+		AE4EB1DE7EEA09E84D948BB0F0E74857 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				D0707AE5D263B2E0FFC8AB660DBD9D52 /* test3.gif */,
+			);
+			name = other;
+			path = other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0BDE1F68F42FAA3BADF7A2FE7F49C631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = B842DF07DF758483558D26DA1C4F609E /* Build configuration list for PBXProject "JDResources" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DAE2A9E3F81543E3D258B688C106029;
+			productRefGroup = 324B8D99157269E1F0C82DEDA0C6AD18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E47DA814BAB99DB7309EC8D37759435 /* JDResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1829F4BFEAF6CF306BA6D6DF805E26DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5AFC7FF505291F9A2A398675FEE44F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B088F4B392019D4C5AA543D91AE8D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D905906338ED0E046F6FB29BFFA0AC /* JDResources.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA1128A867FD82AD62451B15E08C6096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E31BE102C505F0484920EAFBA1EAFB /* JDResources.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B69F28A8ADC2AFA2844CEC83BA9314E4 /* Build configuration list for PBXAggregateTarget "JDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B088F4B392019D4C5AA543D91AE8D60 /* Debug */,
+				DA1128A867FD82AD62451B15E08C6096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B842DF07DF758483558D26DA1C4F609E /* Build configuration list for PBXProject "JDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFC7FF505291F9A2A398675FEE44F84 /* Debug */,
+				1829F4BFEAF6CF306BA6D6DF805E26DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BDE1F68F42FAA3BADF7A2FE7F49C631 /* Project object */;
+}

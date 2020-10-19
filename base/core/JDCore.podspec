@@ -10,13 +10,13 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios,'8.0'
 
-  spec.source_files = 'Framework/**/*.{h,m,mm}'
-  spec.resource = 'Framework/**/*.{png,xib,plist}'
+  spec.source_files = 'Sources/**/*.{h,m,mm}'
+  spec.resource = 'Sources/**/*.{png,xib,plist}'
 
   spec.requires_arc = true
   spec.ios.deployment_target = '8.0'
   
-  spec.public_header_files = 'Framework/**/*.h'
+  spec.public_header_files = 'Sources/**/*.h'
  
   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个spec.dependency
   spec.dependency 'JDRouter'

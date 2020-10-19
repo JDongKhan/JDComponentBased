@@ -1,10 +1,11 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../../base/lib/Libs"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JDNetwork" "${PODS_ROOT}/Headers/Public/JDOrder" "${PODS_ROOT}/Headers/Public/JDRouter" "${PODS_ROOT}/Headers/Public/JDUIKit" "${PODS_ROOT}/Headers/Public/JDUser" "${PODS_ROOT}/Headers/Public/JDUtils"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JDCore" "${PODS_ROOT}/Headers/Public/JDNetwork" "${PODS_ROOT}/Headers/Public/JDOrder" "${PODS_ROOT}/Headers/Public/JDRouter" "${PODS_ROOT}/Headers/Public/JDUIKit" "${PODS_ROOT}/Headers/Public/JDUser" "${PODS_ROOT}/Headers/Public/JDUtils"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/JDNetwork" "${PODS_CONFIGURATION_BUILD_DIR}/JDOrder" "${PODS_CONFIGURATION_BUILD_DIR}/JDRouter" "${PODS_CONFIGURATION_BUILD_DIR}/JDUIKit" "${PODS_CONFIGURATION_BUILD_DIR}/JDUser" "${PODS_CONFIGURATION_BUILD_DIR}/JDUtils"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"JDNetwork" -l"JDOrder" -l"JDRouter" -l"JDUIKit" -l"JDUser" -l"JDUtils" -framework "CoreGraphics" -framework "Foundation" -framework "JDLib" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/JDCore" "${PODS_CONFIGURATION_BUILD_DIR}/JDNetwork" "${PODS_CONFIGURATION_BUILD_DIR}/JDOrder" "${PODS_CONFIGURATION_BUILD_DIR}/JDRouter" "${PODS_CONFIGURATION_BUILD_DIR}/JDUIKit" "${PODS_CONFIGURATION_BUILD_DIR}/JDUser" "${PODS_CONFIGURATION_BUILD_DIR}/JDUtils"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"JDCore" -l"JDNetwork" -l"JDOrder" -l"JDRouter" -l"JDUIKit" -l"JDUser" -l"JDUtils" -framework "Foundation" -framework "JDLib" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
